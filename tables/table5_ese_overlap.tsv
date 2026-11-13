@@ -1,0 +1,5 @@
+exon	codons	invariant	nt_covered_by_ESE	nt_total	coverage	observed_overlap_nt	expected_mean	p_empirical
+E10	31	14	28	93	0.301	15	12.6	0.3169
+E11	28	2	20	84	0.238	3	1.4	0.3366
+E12	37	1	55	111	0.495	3	1.5	0.3855
+E13	71	2	36	213	0.169	3	1.0	0.2671

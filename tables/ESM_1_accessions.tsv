@@ -1,0 +1,511 @@
+# Synonymous constraint on MAPT exon 10 exceeds what its encoded protein requires and is shared across amniotes
+# Alvaro Alemán-Gutiérrez, Instituto Tecnológico de Costa Rica, aaleman@itcr.ac.cr
+# Online Resource 1
+species	clade	superorder	order	family	gene_id	protein	transcript	source	length	core_coverage	E10_coverage	missing_core_exons	included	exclusion_reason
+Homo sapiens	Mammalia	Euarchontoglires	Primates		4137	NP_005901.2	NM_005910.6	anotada	441.0	0.99			True	
+Mus musculus	Mammalia	Euarchontoglires	Rodentia		17762	NP_001033698.1	NM_001038609.3	anotada	430.0	0.96			True	
+Rattus norvegicus	Mammalia	Euarchontoglires	Rodentia		29477	XP_008766499.1	XM_008768277.4	anotada	432.0	0.97			True	
+Bos taurus	Mammalia	Laurasiatheria	Artiodactyla		281296	NP_776531.1	NM_174106.2	in_silico	448.0	0.97			True	
+Pan troglodytes	Mammalia	Euarchontoglires	Primates		450177	XP_009430187.1	XM_009431912.4	anotada	441.0	0.99			True	
+Canis lupus familiaris	Mammalia	Laurasiatheria	Carnivora		480488	XP_038530936.1	XM_038675008.1	anotada	441.0	0.99			True	
+Macaca mulatta	Mammalia	Euarchontoglires	Primates		574327	XP_014975440.1	XM_015119954.3	anotada	441.0	0.99			True	
+Monodelphis domestica	Mammalia		Didelphimorphia		100025077	XP_016286066.2	XM_016430580.3	anotada+recorte_Nter	446.0	0.95			True	
+Equus caballus	Mammalia	Laurasiatheria	Perissodactyla		100054638	XP_001501631.1	XM_001501581.5	anotada	445.0	0.98			True	
+Ornithorhynchus anatinus	Mammalia		Monotremata		100088033	XP_028931469.1	XM_029075636.1	anotada	440.0	0.95			True	
+Oryctolagus cuniculus	Mammalia	Euarchontoglires	Lagomorpha		100344003	XP_051680986.1	XM_051825026.3	anotada	432.0	0.97			True	
+Callithrix jacchus	Mammalia	Euarchontoglires	Primates		100403309	XP_035156156.1	XM_035300265.3	anotada	431.0	0.97			True	
+Pongo abelii	Mammalia	Euarchontoglires	Primates		100432958	XP_002827443.1	XM_002827397.5	in_silico	441.0	0.99			True	
+Ailuropoda melanoleuca	Mammalia	Laurasiatheria	Carnivora		100476507			excluida					False	sin isoforma con exones core completos editable en marco
+Nomascus leucogenys	Mammalia	Euarchontoglires	Primates		100601409	XP_030655807.1	XM_030799947.1	anotada	441.0	0.99			True	
+Loxodonta africana	Mammalia	Afrotheria	Proboscidea		100663624	XP_064127056.1	XM_064270986.1	in_silico	440.0	0.97			True	
+Cavia porcellus	Mammalia	Euarchontoglires	Rodentia		100735442	XP_013003801.2	XM_013148347.3	anotada	430.0	0.96			True	
+Sus scrofa	Mammalia	Laurasiatheria	Artiodactyla		100738351	XP_020922475.1	XM_021066816.2	anotada	433.0	0.97			True	
+Capra hircus	Mammalia	Laurasiatheria	Artiodactyla		100860820	XP_017920782.1	XM_018065293.1	anotada	432.0	0.97			True	
+Sarcophilus harrisii	Mammalia		Dasyuromorphia		100920214	XP_023358232.2	XM_023502464.2	in_silico+recorte_Nter	447.0	0.96		E5	True	
+Otolemur garnettii	Mammalia	Euarchontoglires	Primates		100951532	XP_012658389.1	XM_012802935.2	anotada	440.0	0.99			True	
+Pan paniscus	Mammalia	Euarchontoglires	Primates		100987023	XP_014197462.1	XM_014341976.5	in_silico	441.0	0.99			True	
+Papio anubis	Mammalia	Euarchontoglires	Primates		101004302	XP_009189181.1	XM_009190917.3	anotada	441.0	0.99			True	
+Saimiri boliviensis	Mammalia	Euarchontoglires	Primates		101029753	XP_010328568.3	XM_010330266.3	anotada	431.0	0.97			True	
+Felis catus	Mammalia	Laurasiatheria	Carnivora		101089557	XP_003997079.1	XM_003997030.6	anotada	446.0	0.99			True	
+Ovis aries	Mammalia	Laurasiatheria	Artiodactyla		101121024	XP_027830182.1	XM_027974381.3	anotada	432.0	0.97			True	
+Gorilla gorilla gorilla	Mammalia	Euarchontoglires	Primates		101142624	XP_055243791.1	XM_055387816.2	anotada	441.0	0.99			True	
+Orcinus orca	Mammalia	Laurasiatheria	Artiodactyla		101276955	XP_004275727.1	XM_004275679.4	in_silico	439.0	0.97			True	
+Tursiops truncatus	Mammalia	Laurasiatheria	Artiodactyla		101316062	XP_033704328.1	XM_033848437.2	in_silico	439.0	0.97			True	
+Trichechus manatus latirostris	Mammalia	Afrotheria	Sirenia		101360746	XP_004374310.1	XM_004374253.1	anotada	440.0	0.97			True	
+Odobenus rosmarus divergens	Mammalia	Laurasiatheria	Carnivora		101371518	XP_004411151.1	XM_004411094.1	anotada	446.0	0.99			True	
+Ceratotherium simum simum	Mammalia	Laurasiatheria	Perissodactyla		101404209	XP_087297468.1	XM_087441342.1	in_silico	445.0	0.99			True	
+Dasypus novemcinctus	Mammalia	Xenarthra	Cingulata		101419371	XP_058140439.1	XM_058284456.2	anotada	445.0	0.99			True	
+Ochotona princeps	Mammalia	Euarchontoglires	Lagomorpha		101520785	XP_058531619.1	XM_058675636.1	anotada	432.0	0.97			True	
+Sorex araneus	Mammalia	Laurasiatheria	Eulipotyphla		101559083	XP_054985810.1	XM_055129835.1	anotada	443.0	0.99			True	
+Octodon degus	Mammalia	Euarchontoglires	Rodentia		101578621	XP_023569732.1	XM_023713964.1	anotada	431.0	0.97			True	
+Jaculus jaculus	Mammalia	Euarchontoglires	Rodentia		101616209	XP_045014272.1	XM_045158337.1	in_silico	403.0	0.9		E3	True	
+Condylura cristata	Mammalia	Laurasiatheria	Eulipotyphla		101628928	XP_004684111.1	XM_004684054.2	anotada	446.0	0.99			True	
+Echinops telfairi	Mammalia	Afrotheria	Afrosoricida		101649733	XP_030743928.2	XM_030888068.2	in_silico	397.0	0.85		E2,E3	True	
+Mustela putorius furo	Mammalia	Laurasiatheria	Carnivora		101679947	XP_012901366.1	XM_013045912.2	anotada	436.0	0.98			True	
+Heterocephalus glaber	Mammalia	Euarchontoglires	Rodentia		101719489	XP_021103207.1	XM_021247548.2	anotada	432.0	0.97			True	
+Mesocricetus auratus	Mammalia	Euarchontoglires	Rodentia		101828445	XP_040605813.1	XM_040749879.1	anotada	432.0	0.97			True	
+Ictidomys tridecemlineatus	Mammalia	Euarchontoglires	Rodentia		101962404	XP_021584049.2	XM_021728374.3	anotada	430.0	0.96			True	
+Microtus ochrogaster	Mammalia	Euarchontoglires	Rodentia		102001153	XP_005369453.1	XM_005369396.2	anotada	432.0	0.97			True	
+Chinchilla lanigera	Mammalia	Euarchontoglires	Rodentia		102013826	XP_005402319.1	XM_005402262.1	anotada	431.0	0.97			True	
+Macaca fascicularis	Mammalia	Euarchontoglires	Primates		102119414	XP_005584597.1	XM_005584540.4	anotada	441.0	0.99			True	
+Myotis brandtii	Mammalia	Laurasiatheria	Chiroptera		102260052	XP_014387417.1	XM_014531931.1	anotada	441.0	0.98			True	
+Bos mutus	Mammalia	Laurasiatheria	Artiodactyla		102270620	XP_005905407.1	XM_005905345.3	in_silico	430.0	0.96			True	
+Bubalus bubalis	Mammalia	Laurasiatheria	Artiodactyla		102415365	XP_006060749.3	XM_006060687.3	in_silico	430.0	0.96			True	
+Myotis lucifugus	Mammalia	Laurasiatheria	Chiroptera		102424304	XP_006092253.1	XM_006092191.3	anotada	441.0	0.98			True	
+Tupaia belangeri chinensis	Mammalia	Euarchontoglires	Scandentia		102487338	XP_027631791.1	XM_027775990.1	in_silico	474.0	0.97			True	
+Camelus ferus	Mammalia	Laurasiatheria	Artiodactyla		102508974	XP_006177424.1	XM_006177362.3	anotada	433.0	0.97			True	
+Vicugna pacos	Mammalia	Laurasiatheria	Artiodactyla		102528315	XP_072795449.1	XM_072939348.1	anotada	433.0	0.97			True	
+Leptonychotes weddellii	Mammalia	Laurasiatheria	Carnivora		102736771	XP_081660910.1	XM_081804784.1	anotada	446.0	0.99			True	
+Myotis davidii	Mammalia	Laurasiatheria	Chiroptera		102757836			excluida					False	sin isoforma con exones core completos editable en marco
+Chrysochloris asiatica	Mammalia	Afrotheria	Afrosoricida		102826935	XP_006833604.1	XM_006833541.1	anotada	440.0	0.97			True	
+Elephantulus edwardii	Mammalia	Afrotheria	Macroscelidea		102856271	XP_006897933.1	XM_006897871.1	in_silico	388.0	0.86			True	
+Pteropus alecto	Mammalia	Laurasiatheria	Chiroptera		102878980	XP_024901416.1	XM_025045648.1	in_silico	446.0	0.99			True	
+Peromyscus maniculatus bairdii	Mammalia	Euarchontoglires	Rodentia		102907979	XP_006970606.1	XM_006970544.4	anotada	432.0	0.97			True	
+Panthera tigris	Mammalia	Laurasiatheria	Carnivora		102967519	XP_042822865.1	XM_042966931.1	in_silico	446.0	0.99			True	
+Physeter macrocephalus	Mammalia	Laurasiatheria	Artiodactyla		102996376	XP_028353877.1	XM_028498076.2	in_silico	563.0	0.71		E1,E2,E3,E4	False	modelo génico incompleto (cobertura core 0.71)
+Balaenoptera acutorostrata	Mammalia	Laurasiatheria	Artiodactyla		103009499	XP_007175901.2	XM_007175839.2	anotada	433.0	0.97			True	
+Lipotes vexillifer	Mammalia	Laurasiatheria	Artiodactyla		103090402	XP_007456789.1	XM_007456727.1	in_silico	439.0	0.97			True	
+Orycteropus afer afer	Mammalia	Afrotheria	Tubulidentata		103213973	XP_007957952.1	XM_007959761.1	in_silico	440.0	0.97			True	
+Chlorocebus sabaeus	Mammalia	Euarchontoglires	Primates		103243264	XP_008010449.1	XM_008012258.3	anotada	441.0	0.99			True	
+Eptesicus fuscus	Mammalia	Laurasiatheria	Chiroptera		103293163	XP_054565291.1	XM_054709316.1	in_silico	441.0	0.98			True	
+Equus przewalskii	Mammalia	Laurasiatheria	Perissodactyla		103552915	XP_070416375.1	XM_070560274.1	anotada	445.0	0.98			True	
+Galeopterus variegatus	Mammalia	Euarchontoglires	Dermoptera		103598652	XP_008580911.1	XM_008582689.1	in_silico	313.0	0.71		E1,E2,E3,E4	False	modelo génico incompleto (cobertura core 0.71)
+Nannospalax galili	Mammalia	Euarchontoglires	Rodentia		103724766	XP_008820124.1	XM_008821902.3	anotada	432.0	0.97			True	
+Rhinopithecus roxellana	Mammalia	Euarchontoglires	Primates		104682393	XP_010387327.1	XM_010389025.2	anotada	441.0	0.99			True	
+Fukomys damarensis	Mammalia	Euarchontoglires	Rodentia		104871535	XP_010635771.1	XM_010637469.1	anotada	432.0	0.97			True	
+Bison bison bison	Mammalia	Laurasiatheria	Artiodactyla		104982950	XP_010830689.1	XM_010832387.1	anotada	430.0	0.96			True	
+Camelus bactrianus	Mammalia	Laurasiatheria	Artiodactyla		105071480	XP_074199525.1	XM_074343424.1	anotada	433.0	0.97			True	
+Camelus dromedarius	Mammalia	Laurasiatheria	Artiodactyla		105090432	XP_064351775.1	XM_064495705.1	in_silico	404.0	0.9		E3	True	
+Pteropus vampyrus	Mammalia	Laurasiatheria	Chiroptera		105303449	XP_011375394.1	XM_011377092.2	in_silico	388.0	0.86		E2,E3	True	
+Macaca nemestrina	Mammalia	Euarchontoglires	Primates		105468425	XP_011716956.1	XM_011718654.3	anotada	441.0	0.99			True	
+Colobus angolensis palliatus	Mammalia	Euarchontoglires	Primates		105520290	XP_011809308.1	XM_011953918.1	in_silico	284.0	0.54		E1,E2,E3,E4,E9	False	modelo génico incompleto (cobertura core 0.54)
+Mandrillus leucophaeus	Mammalia	Euarchontoglires	Primates		105555143	XP_011857331.1	XM_012001941.1	anotada	441.0	0.99			True	
+Cercocebus atys	Mammalia	Euarchontoglires	Primates		105585777	XP_011915511.1	XM_012060121.1	anotada	441.0	0.99			True	
+Aotus nancymaae	Mammalia	Euarchontoglires	Primates		105711196	XP_021529401.2	XM_021673726.2	anotada	431.0	0.97			True	
+Propithecus coquereli	Mammalia	Euarchontoglires	Primates		105819080	XP_012510701.1	XM_012655247.1	anotada	440.0	0.99			True	
+Microcebus murinus	Mammalia	Euarchontoglires	Primates		105863664	XP_012606512.1	XM_012751058.3	anotada	440.0	0.99			True	
+Dipodomys ordii	Mammalia	Euarchontoglires	Rodentia		105998555	XP_012888774.1	XM_013033320.1	anotada	432.0	0.97			True	
+Equus asinus	Mammalia	Laurasiatheria	Perissodactyla		106836496	XP_014704932.1	XM_014849446.3	anotada	445.0	0.98			True	
+Acinonyx jubatus	Mammalia	Laurasiatheria	Carnivora		106988843	XP_026907830.1	XM_027052029.2	anotada	446.0	0.99			True	
+Marmota marmota marmota	Mammalia	Euarchontoglires	Rodentia		107160525	XP_015362686.2	XM_015507200.2	anotada+recorte_Nter	432.0	0.97			True	
+Rousettus aegyptiacus	Mammalia	Laurasiatheria	Chiroptera		107508176	XP_015995322.2	XM_016139836.2	anotada	446.0	0.99			True	
+Miniopterus natalensis	Mammalia	Laurasiatheria	Chiroptera		107530997	XP_016060438.1	XM_016204952.2	anotada	446.0	0.99			True	
+Cebus imitator	Mammalia	Euarchontoglires	Primates		108318302	XP_017404784.1	XM_017549295.2	anotada	431.0	0.97			True	
+Manis javanica	Mammalia	Laurasiatheria	Pholidota		108398647	XP_036853151.2	XM_036997256.2	anotada	466.0	0.99			True	
+Rhinopithecus bieti	Mammalia	Euarchontoglires	Primates		108529371	XP_017727124.1	XM_017871635.1	anotada	441.0	0.99			True	
+Panthera pardus	Mammalia	Laurasiatheria	Carnivora		109259745	XP_019293046.1	XM_019437501.2	anotada	446.0	0.99			True	
+Hipposideros armiger	Mammalia	Laurasiatheria	Chiroptera		109380299	XP_019493274.1	XM_019637729.1	anotada	445.0	0.98			True	
+Rhinolophus sinicus	Mammalia	Laurasiatheria	Chiroptera		109448047	XP_019588518.2	XM_019732959.3	anotada	445.0	0.98			True	
+Bos indicus	Mammalia	Laurasiatheria	Artiodactyla		109573661	XP_019836557.2	XM_019980998.2	in_silico	430.0	0.96			True	
+Castor canadensis	Mammalia	Euarchontoglires	Rodentia		109684813	XP_073901938.1	XM_074045837.1	anotada	432.0	0.97			True	
+Odocoileus virginianus	Mammalia	Laurasiatheria	Artiodactyla		110129709	XP_070335704.1	XM_070479603.1	anotada	432.0	0.97			True	
+Phascolarctos cinereus	Mammalia		Diprotodontia		110215713	XP_020853063.2	XM_020997404.2	in_silico+recorte_Nter	446.0	0.96			True	
+Mus caroli	Mammalia	Euarchontoglires	Rodentia		110304807	XP_021032070.1	XM_021176411.3	anotada	430.0	0.96			True	
+Mus pahari	Mammalia	Euarchontoglires	Rodentia		110331493	XP_021067810.1	XM_021212151.1	anotada	430.0	0.96			True	
+Meriones unguiculatus	Mammalia	Euarchontoglires	Rodentia		110545637	XP_021487553.1	XM_021631878.2	anotada	433.0	0.97			True	
+Neomonachus schauinslandi	Mammalia	Laurasiatheria	Carnivora		110570453	XP_021534160.1	XM_021678485.1	in_silico	417.0	0.93		E3	True	
+Enhydra lutris kenyoni	Mammalia	Laurasiatheria	Carnivora		111158157			excluida					False	sin isoforma con exones core completos editable en marco
+Delphinapterus leucas	Mammalia	Laurasiatheria	Artiodactyla		111182584	XP_022444756.1	XM_022589048.2	in_silico	439.0	0.97			True	
+Piliocolobus tephrosceles	Mammalia	Euarchontoglires	Primates		111529278	XP_023051944.2	XM_023196176.2	anotada	441.0	0.99			True	
+Desmodus rotundus	Mammalia	Laurasiatheria	Chiroptera		112316173	XP_045038133.2	XM_045182198.3	anotada	446.0	0.99			True	
+Neophocaena asiaeorientalis asiaeorientalis	Mammalia	Laurasiatheria	Artiodactyla		112410117	XP_024616289.1	XM_024760521.1	in_silico	439.0	0.97			True	
+Theropithecus gelada	Mammalia	Euarchontoglires	Primates		112609254	XP_086576961.1	XM_086720835.1	anotada	441.0	0.99			True	
+Canis lupus dingo	Mammalia	Laurasiatheria	Carnivora		112653038	XP_025292594.1	XM_025436809.3	anotada	441.0	0.99			True	
+Callorhinus ursinus	Mammalia	Laurasiatheria	Carnivora		112837623	XP_073739228.1	XM_073883127.1	anotada	446.0	0.99			True	
+Puma concolor	Mammalia	Laurasiatheria	Carnivora		112862026	XP_086543745.1	XM_086687619.1	anotada	446.0	0.99			True	
+Vulpes vulpes	Mammalia	Laurasiatheria	Carnivora		112920687	XP_025855296.1	XM_025999511.2	anotada	441.0	0.99			True	
+Urocitellus parryii	Mammalia	Euarchontoglires	Rodentia		113196342	XP_026263984.2	XM_026408199.2	anotada	430.0	0.96			True	
+Ursus arctos	Mammalia	Laurasiatheria	Carnivora		113265313	XP_026368356.1	XM_026512571.4	anotada	444.0	0.99			True	
+Aethalodelphis obliquidens	Mammalia	Laurasiatheria	Artiodactyla		113606674	XP_026937127.1	XM_027081326.1	in_silico	439.0	0.97			True	
+Bos indicus x Bos taurus	Mammalia	Laurasiatheria	Artiodactyla		113877388	XP_027373250.1	XM_027517449.1	in_silico	430.0	0.96			True	
+Zalophus californianus	Mammalia	Laurasiatheria	Carnivora		113939784	XP_027482187.1	XM_027626386.2	anotada	446.0	0.99			True	
+Vombatus ursinus	Mammalia		Diprotodontia		114051078	XP_027729027.1	XM_027873226.1	in_silico	446.0	0.96		E5	True	
+Marmota flaviventris	Mammalia	Euarchontoglires	Rodentia		114080195	XP_027777583.1	XM_027921782.2	anotada	432.0	0.97			True	
+Eumetopias jubatus	Mammalia	Laurasiatheria	Carnivora		114196731	XP_087884339.1	XM_088028213.1	in_silico	446.0	0.99			True	
+Phyllostomus discolor	Mammalia	Laurasiatheria	Chiroptera		114503143	XP_028376364.1	XM_028520563.2	anotada	446.0	0.99			True	
+Grammomys surdaster	Mammalia	Euarchontoglires	Rodentia		114632116	XP_028636423.1	XM_028780590.1	in_silico	434.0	0.97			True	
+Peromyscus leucopus	Mammalia	Euarchontoglires	Rodentia		114702276	XP_028738509.1	XM_028882676.2	anotada	422.0	0.95			True	
+Monodon monoceros	Mammalia	Laurasiatheria	Artiodactyla		114888899	XP_029067376.1	XM_029211543.1	in_silico	439.0	0.97			True	
+Suricata suricatta	Mammalia	Laurasiatheria	Carnivora		115281979			excluida					False	sin isoforma con exones core completos editable en marco
+Lynx canadensis	Mammalia	Laurasiatheria	Carnivora		115501135	XP_030151897.1	XM_030296037.1	anotada	446.0	0.99			True	
+Mastomys coucha	Mammalia	Euarchontoglires	Rodentia		116076902	XP_031206838.1	XM_031350978.1	in_silico	432.0	0.97			True	
+Hylobates moloch	Mammalia	Euarchontoglires	Primates		116475002	XP_032019850.1	XM_032163959.2	anotada	441.0	0.99			True	
+Sapajus apella	Mammalia	Euarchontoglires	Primates		116541646	XP_032121884.1	XM_032265993.1	anotada	431.0	0.97			True	
+Mustela erminea	Mammalia	Laurasiatheria	Carnivora		116577580	XP_032176923.1	XM_032321032.1	anotada	436.0	0.98			True	
+Phoca vitulina	Mammalia	Laurasiatheria	Carnivora		116647851	XP_032285309.1	XM_032429418.1	anotada	446.0	0.99			True	
+Phocoena sinus	Mammalia	Laurasiatheria	Artiodactyla		116744941	XP_032470912.1	XM_032615021.1	in_silico	439.0	0.97			True	
+Lontra canadensis	Mammalia	Laurasiatheria	Carnivora		116875434	XP_032726833.1	XM_032870942.1	anotada	436.0	0.98			True	
+Rhinolophus ferrumequinum	Mammalia	Laurasiatheria	Chiroptera		117012835	XP_032945186.1	XM_033089295.1	anotada	445.0	0.98			True	
+Trachypithecus francoisi	Mammalia	Euarchontoglires	Primates		117087581	XP_033075261.1	XM_033219370.1	anotada	441.0	0.99			True	
+Arvicanthis niloticus	Mammalia	Euarchontoglires	Rodentia		117710422	XP_034361058.1	XM_034505167.2	anotada	432.0	0.97			True	
+Mirounga leonina	Mammalia	Laurasiatheria	Carnivora		118027177	XP_034886279.1	XM_035030388.1	in_silico	446.0	0.99			True	
+Halichoerus grypus	Mammalia	Laurasiatheria	Carnivora		118542685	XP_035959005.1	XM_036103112.2	anotada	446.0	0.99			True	
+Onychomys torridus	Mammalia	Euarchontoglires	Rodentia		118588819	XP_036051263.1	XM_036195370.1	anotada	432.0	0.96			True	
+Molossus molossus	Mammalia	Laurasiatheria	Chiroptera		118634096	XP_036124301.1	XM_036268408.1	in_silico	444.0	0.99			True	
+Myotis myotis	Mammalia	Laurasiatheria	Chiroptera		118671627	XP_036196014.1	XM_036340121.1	in_silico	446.0	0.98			True	
+Pipistrellus kuhlii	Mammalia	Laurasiatheria	Chiroptera		118726361	XP_045442320.1	XM_045586364.1	anotada	439.0	0.98			True	
+Trichosurus vulpecula	Mammalia		Diprotodontia		118846107	XP_036610200.1	XM_036754305.1	in_silico	447.0	0.96		E5	True	
+Balaenoptera musculus	Mammalia	Laurasiatheria	Artiodactyla		118886713	XP_036692711.1	XM_036836816.1	in_silico	405.0	0.9		E3	True	
+Manis pentadactyla	Mammalia	Laurasiatheria	Pholidota		118919664	XP_057357572.1	XM_057501589.1	in_silico	446.0	0.98			True	
+Sturnira hondurensis	Mammalia	Laurasiatheria	Chiroptera		119003781	XP_036926282.1	XM_037070387.1	anotada	446.0	0.99			True	
+Artibeus jamaicensis	Mammalia	Laurasiatheria	Chiroptera		119062588	XP_037019514.2	XM_037163619.2	anotada	446.0	0.99			True	
+Talpa occidentalis	Mammalia	Laurasiatheria	Eulipotyphla		119232082	XP_037349877.1	XM_037493980.2	anotada	453.0	0.99			True	
+Choloepus didactylus	Mammalia	Xenarthra	Pilosa		119513135	XP_037663999.1	XM_037808071.1	anotada	445.0	0.98			True	
+Arvicola amphibius	Mammalia	Euarchontoglires	Rodentia		119812136	XP_038182474.1	XM_038326546.1	anotada	432.0	0.97			True	
+Tachyglossus aculeatus	Mammalia		Monotremata		119934935	XP_038610440.1	XM_038754512.1	in_silico	407.0	0.89		E10	True	
+Hyaena hyaena	Mammalia	Laurasiatheria	Carnivora		120244270	XP_039106604.1	XM_039250673.1	anotada	446.0	0.99			True	
+Pteropus medius	Mammalia	Laurasiatheria	Chiroptera		120589267	XP_039702755.1	XM_039846821.1	in_silico	446.0	0.99			True	
+Oryx dammah	Mammalia	Laurasiatheria	Artiodactyla		120866971	XP_040100988.1	XM_040245054.1	anotada	432.0	0.97			True	
+Herpailurus yagouaroundi	Mammalia	Laurasiatheria	Carnivora		121020155	XP_040316006.1	XM_040460072.1	anotada	446.0	0.99			True	
+Ursus maritimus	Mammalia	Laurasiatheria	Carnivora		121104977	XP_040496379.1	XM_040640445.1	anotada	444.0	0.99			True	
+Ochotona curzoniae	Mammalia	Euarchontoglires	Lagomorpha		121162331	XP_040845224.1	XM_040989290.1	anotada	432.0	0.97			True	
+Microtus oregoni	Mammalia	Euarchontoglires	Rodentia		121435969	XP_041491472.1	XM_041635538.1	anotada	431.0	0.97			True	
+Vulpes lagopus	Mammalia	Laurasiatheria	Carnivora		121472963	XP_041580628.1	XM_041724694.1	anotada	441.0	0.99			True	
+Dipodomys spectabilis	Mammalia	Euarchontoglires	Rodentia		122103501	XP_042530037.1	XM_042674103.1	anotada	432.0	0.97			True	
+Panthera leo	Mammalia	Laurasiatheria	Carnivora		122206734	XP_042772123.1	XM_042916189.1	in_silico	446.0	0.99			True	
+Cervus canadensis	Mammalia	Laurasiatheria	Artiodactyla		122440039	XP_043321821.1	XM_043465886.1	anotada	432.0	0.97			True	
+Prionailurus bengalensis	Mammalia	Laurasiatheria	Carnivora		122485735	XP_043440815.1	XM_043584880.1	anotada	446.0	0.99			True	
+Cervus elaphus	Mammalia	Laurasiatheria	Artiodactyla		122695259	XP_043760866.1	XM_043904931.1	anotada	432.0	0.97			True	
+Dromiciops gliroides	Mammalia		Microbiotheria		122754283	XP_043858499.1	XM_044002564.1	in_silico+recorte_Nter	447.0	0.96		E5	True	
+Neogale vison	Mammalia	Laurasiatheria	Carnivora		122906106	XP_044103639.1	XM_044247704.1	anotada	436.0	0.98			True	
+Gracilinanus agilis	Mammalia		Didelphimorphia		123247918	XP_044532932.1	XM_044676997.1	anotada	447.0	0.95			True	
+Leopardus geoffroyi	Mammalia	Laurasiatheria	Carnivora		123603878	XP_045345266.1	XM_045489310.1	anotada	446.0	0.99			True	
+Lemur catta	Mammalia	Euarchontoglires	Primates		123620566	XP_045381870.1	XM_045525914.1	anotada	441.0	0.99			True	
+Ursus americanus	Mammalia	Laurasiatheria	Carnivora		123803222	XP_087710391.1	XM_087854265.1	anotada	444.0	0.99			True	
+Phyllostomus hastatus	Mammalia	Laurasiatheria	Chiroptera		123816832	XP_045691988.1	XM_045836032.1	anotada	446.0	0.99			True	
+Mirounga angustirostris	Mammalia	Laurasiatheria	Carnivora		123853899	XP_064438426.1	XM_064582356.1	anotada	446.0	0.99			True	
+Meles meles	Mammalia	Laurasiatheria	Carnivora		123929205	XP_045840562.1	XM_045984606.1	anotada	436.0	0.98			True	
+Marmota monax	Mammalia	Euarchontoglires	Rodentia		124076978	XP_046277114.1	XM_046421158.2	anotada	432.0	0.97			True	
+Equus quagga	Mammalia	Laurasiatheria	Perissodactyla		124246642	XP_046530982.1	XM_046675026.1	anotada	445.0	0.98			True	
+Lynx rufus	Mammalia	Laurasiatheria	Carnivora		124513561	XP_046937638.1	XM_047081682.1	in_silico	446.0	0.99			True	
+Sciurus carolinensis	Mammalia	Euarchontoglires	Rodentia		124980973	XP_047403057.1	XM_047547101.1	anotada	432.0	0.97			True	
+Lutra lutra	Mammalia	Laurasiatheria	Carnivora		125086936	XP_047562594.1	XM_047706638.1	anotada	436.0	0.98			True	
+Phacochoerus africanus	Mammalia	Laurasiatheria	Artiodactyla		125114191	XP_047613307.1	XM_047757351.1	anotada	433.0	0.97			True	
+Prionailurus viverrinus	Mammalia	Laurasiatheria	Carnivora		125151859	XP_047689306.1	XM_047833350.1	anotada	446.0	0.99			True	
+Perognathus longimembris pacificus	Mammalia	Euarchontoglires	Rodentia		125366515	XP_048223230.1	XM_048367273.1	in_silico	402.0	0.9		E3	True	
+Myodes glareolus	Mammalia	Euarchontoglires	Rodentia		125407968	XP_048301860.1	XM_048445903.3	anotada	432.0	0.97			True	
+Panthera uncia	Mammalia	Laurasiatheria	Carnivora		125927337	XP_049493562.1	XM_049637605.1	anotada	446.0	0.99			True	
+Suncus etruscus	Mammalia	Laurasiatheria	Eulipotyphla		126020348	XP_049637758.1	XM_049781801.1	anotada	443.0	0.99			True	
+Elephas maximus indicus	Mammalia	Afrotheria	Proboscidea		126063307	XP_049717591.1	XM_049861634.1	anotada	440.0	0.97			True	
+Alexandromys fortis	Mammalia	Euarchontoglires	Rodentia		126487542	XP_049976361.1	XM_050120404.1	anotada	432.0	0.97			True	
+Macaca thibetana thibetana	Mammalia	Euarchontoglires	Primates		126938919	XP_050619658.1	XM_050763701.1	anotada	441.0	0.99			True	
+Acomys russatus	Mammalia	Euarchontoglires	Rodentia		127200521	XP_051014800.1	XM_051158843.1	in_silico	428.0	0.96			True	
+Phodopus roborovskii	Mammalia	Euarchontoglires	Rodentia		127217676	XP_051034647.1	XM_051178690.1	in_silico	403.0	0.9		E3	True	
+Antechinus flavipes	Mammalia		Dasyuromorphia		127560384	XP_051850874.1	XM_051994914.1	in_silico	447.0	0.96		E5	True	
+Apodemus sylvaticus	Mammalia	Euarchontoglires	Rodentia		127695236	XP_052053198.1	XM_052197238.1	anotada	430.0	0.96			True	
+Budorcas taxicolor	Mammalia	Laurasiatheria	Artiodactyla		128064960	XP_052513963.1	XM_052658003.1	anotada	432.0	0.97			True	
+Peromyscus californicus insignis	Mammalia	Euarchontoglires	Rodentia		128123358	XP_052615638.1	XM_052759678.1	in_silico	432.0	0.97			True	
+Nycticebus coucang	Mammalia	Euarchontoglires	Primates		128569605	XP_053423789.1	XM_053567814.1	anotada	440.0	0.99			True	
+Pongo pygmaeus	Mammalia	Euarchontoglires	Primates		129017902	XP_054314817.1	XM_054458842.2	anotada	441.0	0.99			True	
+Pteronotus mesoamericanus	Mammalia	Laurasiatheria	Chiroptera		129071577	XP_054430861.1	XM_054574886.1	anotada	446.0	0.99			True	
+Symphalangus syndactylus	Mammalia	Euarchontoglires	Primates		129470170	XP_055113635.1	XM_055257660.2	anotada	441.0	0.99			True	
+Nyctereutes procyonoides	Mammalia	Laurasiatheria	Carnivora		129507366	XP_055177768.1	XM_055321793.1	anotada	441.0	0.99			True	
+Moschus berezovskii	Mammalia	Laurasiatheria	Artiodactyla		129544523	XP_055264096.2	XM_055408121.2	in_silico	432.0	0.97			True	
+Bubalus kerabau	Mammalia	Laurasiatheria	Artiodactyla		129648870	XP_055431595.1	XM_055575620.1	anotada	432.0	0.97			True	
+Psammomys obesus	Mammalia	Euarchontoglires	Rodentia		129665565	XP_055448278.1	XM_055592303.1	anotada	433.0	0.97			True	
+Sorex fumeus	Mammalia	Laurasiatheria	Eulipotyphla		130035870	XP_055983770.1	XM_056127795.1	anotada	443.0	0.99			True	
+Hippopotamus amphibius kiboko	Mammalia	Laurasiatheria	Artiodactyla		130840751	XP_057572586.1	XM_057716603.1	anotada	433.0	0.97			True	
+Chionomys nivalis	Mammalia	Euarchontoglires	Rodentia		130877567	XP_057630971.1	XM_057774988.1	anotada	432.0	0.97			True	
+Diceros bicornis minor	Mammalia	Laurasiatheria	Perissodactyla		131417618	XP_058417260.1	XM_058561277.1	in_silico	445.0	0.99			True	
+Neofelis nebulosa	Mammalia	Laurasiatheria	Carnivora		131498561	XP_058561953.1	XM_058705970.1	anotada	446.0	0.99			True	
+Kogia breviceps	Mammalia	Laurasiatheria	Artiodactyla		131746938	XP_058904723.1	XM_059048740.2	anotada	433.0	0.97			True	
+Mustela lutreola	Mammalia	Laurasiatheria	Carnivora		131815906	XP_059004034.1	XM_059148051.1	anotada	436.0	0.98			True	
+Peromyscus eremicus	Mammalia	Euarchontoglires	Rodentia		131917829	XP_059127917.1	XM_059271934.1	in_silico	432.0	0.97			True	
+Mustela nigripes	Mammalia	Laurasiatheria	Carnivora		132003666	XP_059235280.1	XM_059379297.1	anotada	436.0	0.98			True	
+Myotis daubentonii	Mammalia	Laurasiatheria	Chiroptera		132218542	XP_059525843.1	XM_059669860.1	in_silico	439.0	0.98			True	
+Balaenoptera ricei	Mammalia	Laurasiatheria	Artiodactyla		132356120	XP_059764888.1	XM_059908905.1	anotada	433.0	0.97			True	
+Delphinus delphis	Mammalia	Laurasiatheria	Artiodactyla		132415184	XP_069396237.1	XM_069540136.1	in_silico	439.0	0.97			True	
+Mesoplodon densirostris	Mammalia	Laurasiatheria	Artiodactyla		132478030	XP_059936720.1	XM_060080737.1	in_silico	433.0	0.97			True	
+Lagenorhynchus albirostris	Mammalia	Laurasiatheria	Artiodactyla		132511585	XP_059990838.1	XM_060134855.1	in_silico	439.0	0.97			True	
+Panthera onca	Mammalia	Laurasiatheria	Carnivora		132687501	XP_060501800.1	XM_060645817.2	anotada	446.0	0.99			True	
+Dama dama	Mammalia	Laurasiatheria	Artiodactyla		133057599	XP_061000269.1	XM_061144286.1	anotada	432.0	0.97			True	
+Eubalaena glacialis	Mammalia	Laurasiatheria	Artiodactyla		133079304	XP_061030591.1	XM_061174608.1	anotada	433.0	0.97			True	
+Bos javanicus	Mammalia	Laurasiatheria	Artiodactyla		133232599	XP_061248209.1	XM_061392225.1	anotada	430.0	0.96			True	
+Lepus europaeus	Mammalia	Euarchontoglires	Lagomorpha		133776649	XP_062071757.1	XM_062215773.1	anotada	432.0	0.97			True	
+Cynocephalus volans	Mammalia	Euarchontoglires	Dermoptera		134365133	XP_062937400.1	XM_063081330.1	in_silico	439.0	0.99			True	
+Phocoena phocoena	Mammalia	Laurasiatheria	Artiodactyla		136139025	XP_065754016.1	XM_065897944.1	in_silico	439.0	0.97			True	
+Muntiacus reevesi	Mammalia	Laurasiatheria	Artiodactyla		136149212	XP_065765366.1	XM_065909294.1	anotada	432.0	0.97			True	
+Saccopteryx bilineata	Mammalia	Laurasiatheria	Chiroptera		136326557	XP_066118793.1	XM_066262696.1	anotada	445.0	0.98			True	
+Saccopteryx leptura	Mammalia	Laurasiatheria	Chiroptera		136391430	XP_066219209.1	XM_066363112.1	anotada	445.0	0.98			True	
+Pseudorca crassidens	Mammalia	Laurasiatheria	Artiodactyla		137211804	XP_067570553.1	XM_067714452.1	in_silico	439.0	0.97			True	
+Eschrichtius robustus	Mammalia	Laurasiatheria	Artiodactyla		137755122	XP_068387222.1	XM_068531121.1	in_silico	433.0	0.97			True	
+Capricornis sumatraensis	Mammalia	Laurasiatheria	Artiodactyla		138083113	XP_068832857.1	XM_068976756.1	anotada	432.0	0.97			True	
+Petaurus breviceps papuanus	Mammalia		Diprotodontia		138152436	XP_068932306.1	XM_069076205.1	in_silico	447.0	0.96		E5	True	
+Eulemur rufifrons	Mammalia	Euarchontoglires	Primates		138392184	XP_069338827.1	XM_069482726.1	anotada	441.0	0.99			True	
+Ovis canadensis	Mammalia	Laurasiatheria	Artiodactyla		138414371	XP_069397776.1	XM_069541675.1	anotada	432.0	0.97			True	
+Dipodomys merriami	Mammalia	Euarchontoglires	Rodentia		138830850	XP_069883776.1	XM_070027675.1	anotada	432.0	0.97			True	
+Myotis yumanensis	Mammalia	Laurasiatheria	Chiroptera		138994739	XP_070250949.1	XM_070394848.1	anotada	448.0	0.98			True	
+Notamacropus eugenii	Mammalia		Diprotodontia		140528249	XP_072502032.1	XM_072645931.1	in_silico	446.0	0.96		E5	True	
+Canis lupus baileyi	Mammalia	Laurasiatheria	Carnivora		140607029	XP_072637404.1	XM_072781303.1	anotada	441.0	0.99			True	
+Macrotis lagotis	Mammalia		Peramelemorphia		141514001	XP_074080498.1	XM_074224397.1	in_silico+recorte_Nter	635.0	0.96		E5	False	longitud atípica (635 aa): extensión no homóloga en el modelo génico
+Sminthopsis crassicaudata	Mammalia		Dasyuromorphia		141538932	XP_074117076.1	XM_074260975.1	in_silico+recorte_Nter	447.0	0.96		E5	True	
+Tenrec ecaudatus	Mammalia	Afrotheria	Afrosoricida		142458369	XP_075415520.1	XM_075559405.1	in_silico	442.0	0.97			True	
+Microtus pennsylvanicus	Mammalia	Euarchontoglires	Rodentia		142859901	XP_075846566.1	XM_075990451.1	anotada	432.0	0.97			True	
+Callospermophilus lateralis	Mammalia	Euarchontoglires	Rodentia		143409241	XP_076725347.1	XM_076869232.2	anotada	432.0	0.97			True	
+Tamandua tetradactyla	Mammalia	Xenarthra	Pilosa		143687249	XP_077020157.1	XM_077164042.1	anotada	445.0	0.98			True	
+Crocuta crocuta	Mammalia	Laurasiatheria	Carnivora		144245005	XP_077636530.1	XM_077780404.1	anotada	446.0	0.99			True	
+Canis aureus	Mammalia	Laurasiatheria	Carnivora		144286891	XP_077710139.1	XM_077854013.1	anotada	441.0	0.99			True	
+Giraffa tippelskirchi	Mammalia	Laurasiatheria	Artiodactyla		145541082	XP_081432608.1	XM_081576482.1	anotada	432.0	0.97			True	
+Bos grunniens	Mammalia	Laurasiatheria	Artiodactyla		147351405	XP_086213312.1	XM_086357186.1	anotada	430.0	0.96			True	
+Sciurus vulgaris	Mammalia	Euarchontoglires	Rodentia		306658210	XP_078991093.1	XM_079134967.1	anotada	432.0	0.97			True	
+Hyperoodon ampullatus	Mammalia	Laurasiatheria	Artiodactyla		307067496	XP_079581066.1	XM_079724940.1	anotada	431.0	0.97			True	
+Cnephaeus nilssonii	Mammalia	Laurasiatheria	Chiroptera		307115065	XP_079654183.1	XM_079798057.1	in_silico	412.0	0.92		E3	True	
+Stenella coeruleoalba	Mammalia	Laurasiatheria	Artiodactyla		307178117	XP_079761960.1	XM_079905834.1	in_silico	439.0	0.97			True	
+Plecotus auritus	Mammalia	Laurasiatheria	Chiroptera		308254546	XP_080536829.1	XM_080680703.1	anotada	448.0	0.98			True	
+Muscardinus avellanarius	Mammalia	Euarchontoglires	Rodentia		308275449	XP_080569865.1	XM_080713739.1	anotada	427.0	0.95			True	
+Martes martes	Mammalia	Laurasiatheria	Carnivora		308357096	XP_080682713.1	XM_080826587.1	anotada	436.0	0.98			True	
+Micromys minutus	Mammalia	Euarchontoglires	Rodentia		308426491	XP_080780394.1	XM_080924268.1	anotada	432.0	0.97			True	
+Rhinolophus hipposideros	Mammalia	Laurasiatheria	Chiroptera		308488565	XP_080884545.1	XM_081028419.1	anotada	445.0	0.98			True	
+Myotis nattereri	Mammalia	Laurasiatheria	Chiroptera		308531942	XP_080965171.1	XM_081109045.1	anotada	439.0	0.98			True	
+Miniopterus schreibersii	Mammalia	Laurasiatheria	Chiroptera		308569230	XP_081018959.1	XM_081162833.1	anotada	446.0	0.99			True	
+Mesoplodon bidens	Mammalia	Laurasiatheria	Artiodactyla		308606793	XP_081074269.1	XM_081218143.1	in_silico	433.0	0.97			True	
+Spermophilus citellus	Mammalia	Euarchontoglires	Rodentia		308636199	XP_081127560.1	XM_081271434.1	anotada	430.0	0.96			True	
+Balaenoptera borealis	Mammalia	Laurasiatheria	Artiodactyla		309619063	XP_082229910.1	XM_082373784.1	anotada	433.0	0.97			True	
+Balaenoptera physalus	Mammalia	Laurasiatheria	Artiodactyla		309650973	XP_082299232.1	XM_082443106.1	anotada	433.0	0.97			True	
+Mesoplodon mirus	Mammalia	Laurasiatheria	Artiodactyla		309793139	XP_082459571.1	XM_082603445.1	in_silico	433.0	0.97			True	
+Grampus griseus	Mammalia	Laurasiatheria	Artiodactyla		309837757	XP_082534662.1	XM_082678536.1	in_silico	439.0	0.97			True	
+Mustela nivalis	Mammalia	Laurasiatheria	Carnivora		309851341	XP_082562627.1	XM_082706501.1	anotada	436.0	0.98			True	
+Leucopleurus acutus	Mammalia	Laurasiatheria	Artiodactyla		309974967	XP_082715961.1	XM_082859835.1	in_silico	439.0	0.97			True	
+Talpa europaea	Mammalia	Laurasiatheria	Eulipotyphla		311173362	XP_084093389.1	XM_084237263.1	anotada	446.0	0.99			True	
+Acomys minous	Mammalia	Euarchontoglires	Rodentia		311579444	XP_084606148.1	XM_084750022.1	anotada	432.0	0.97			True	
+Pipistrellus hanaki	Mammalia	Laurasiatheria	Chiroptera		311610441	XP_084717825.1	XM_084861699.1	anotada	442.0	0.98			True	
+Agelaius phoeniceus	Aves		Passeriformes	Icteridae	129130900	XP_054505538.2	XM_054649563.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	606.0		1.0		True	
+Agelaius tricolor	Aves		Passeriformes	Icteridae	139601802	XP_071307199.1	XM_071451098.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	586.0		1.0		True	
+Alligator mississippiensis	Crocodylia		Crocodylia	Alligatoridae	102570040	XP_019356503.1	XM_019500958.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	506.0		1.0		True	
+Alligator sinensis	Crocodylia		Crocodylia	Alligatoridae	102385004	XP_025052670.1	XM_025196885.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	668.0		1.0		True	
+Ambystoma mexicanum	Caudata		Caudata	Ambystomatidae	138521342	XP_069490199.1	XM_069634098.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	952.0		1.0		True	
+Ammospiza caudacuta	Aves		Passeriformes	Passerellidae	131568352	XP_058676365.1	XM_058820382.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	784.0		1.0		True	
+Ammospiza nelsoni	Aves		Passeriformes	Passerellidae	132084088	XP_059345051.1	XM_059489068.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	784.0		1.0		True	
+Anas acuta	Aves		Anseriformes	Anatidae	137844662	XP_068517270.1	XM_068661169.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	831.0		1.0		True	
+Anas platyrhynchos	Aves		Anseriformes	Anatidae	101803342	XP_038024714.2	XM_038168786.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	831.0		1.0		True	
+Anolis carolinensis	Lepidosauria		Squamata	Anolidae	100563934	XP_062839979.1	XM_062983909.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	590.0		1.0		True	
+Anolis sagrei	Lepidosauria		Squamata	Anolidae	132778298	XP_067326150.1	XM_067470049.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	769.0		1.0		True	
+Anomalospiza imberbis	Aves		Passeriformes	Viduidae	137486526	XP_068068012.1	XM_068211911.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	510.0		1.0		True	
+Anser anser	Aves		Anseriformes	Anatidae	310885432	XP_083664950.1	XM_083808824.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Anser brachyrhynchus	Aves		Anseriformes	Anatidae	308181801	XP_080421540.1	XM_080565414.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Anser cygnoides	Aves		Anseriformes	Anatidae	106045980	XP_013052236.2	XM_013196782.3	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Aphelocoma coerulescens	Aves		Passeriformes	Corvidae	138099190	XP_068852397.1	XM_068996296.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	799.0		1.0		True	
+Aptenodytes forsteri	Aves		Sphenisciformes	Spheniscidae	103906074	XP_009286187.1	XM_009287912.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	440.0		1.0		True	
+Aptenodytes patagonicus	Aves		Sphenisciformes	Spheniscidae	143169572	XP_076213138.1	XM_076357023.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Apteryx rowi	Aves		Apterygiformes	Apterygidae	112962761	XP_025915003.1	XM_026059218.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	510.0		1.0		True	
+Apus apus	Aves		Apodiformes	Apodidae	127394402	XP_051496293.1	XM_051640333.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	816.0		1.0		True	
+Aquila chrysaetos chrysaetos	Aves		Accipitriformes	Accipitridae	115344344	XP_029877319.1	XM_030021459.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Astur gentilis	Aves		Accipitriformes	Accipitridae	126038720	XP_049656795.1	XM_049800838.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Athene cunicularia	Aves		Strigiformes	Strigidae	113489247	XP_026720627.1	XM_026864826.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Athene noctua	Aves		Strigiformes	Strigidae	141970407	XP_074783085.1	XM_074926984.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Aythya ferina	Aves		Anseriformes	Anatidae	311422817	XP_084352365.1	XM_084496239.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	831.0		1.0		True	
+Aythya fuligula	Aves		Anseriformes	Anatidae	116498375	XP_032058502.1	XM_032202611.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	764.0		1.0		True	
+Aythya marila	Aves		Anseriformes	Anatidae	309887396	XP_082635189.1	XM_082779063.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	831.0		1.0		True	
+Balearica regulorum gibbericeps	Aves		Gruiformes	Gruidae	104634666	XP_075631517.1	XM_075775402.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Branta canadensis	Aves		Anseriformes	Anatidae	309430476	XP_081892583.1	XM_082036457.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Bucephala clangula	Aves		Anseriformes	Anatidae	308453149	XP_080821156.1	XM_080965030.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	827.0		1.0		True	
+Bufo gargarizans	Anura		Anura	Bufonidae	122941868	XP_044155292.1	XM_044299357.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	502.0		1.0		True	
+Buteo buteo	Aves		Accipitriformes	Accipitridae	142034662	XP_074892393.1	XM_075036292.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Calidris pugnax	Aves		Charadriiformes	Scolopacidae	106896481	XP_014811991.1	XM_014956505.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	825.0		1.0		True	
+Caloenas nicobarica	Aves		Columbiformes	Columbidae	135998041	XP_065507162.1	XM_065651090.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	847.0		1.0		True	
+Calonectris borealis	Aves		Procellariiformes	Procellariidae	142091863	XP_075027399.1	XM_075171298.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Calypte anna	Aves		Apodiformes	Trochilidae	103539239	XP_030321812.1	XM_030465952.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	792.0		1.0		True	
+Camarhynchus parvulus	Aves		Passeriformes	Thraupidae	115913898	XP_030822037.1	XM_030966177.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	511.0		1.0		True	
+Candoia aspera	Lepidosauria		Squamata	Candoiidae	134495290	XP_063156679.1	XM_063300609.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	506.0		1.0		True	
+Caretta caretta	Testudines		Testudines	Cheloniidae	125626746	XP_048686061.2	XM_048830104.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	506.0		1.0		True	
+Carettochelys insculpta	Testudines		Testudines	Carettochelyidae	142002590	XP_074834906.1	XM_074978805.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	864.0		1.0		True	
+Cariama cristata	Aves		Cariamiformes	Cariamidae	104168495	XP_009707406.1	XM_009709104.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	241.0		1.0		True	
+Catharus ustulatus	Aves		Passeriformes	Turdidae	117006480	XP_032934869.1	XM_033078978.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	707.0		1.0		True	
+Centrocercus urophasianus	Aves		Galliformes	Phasianidae	122166085	XP_042685533.1	XM_042829599.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	432.0		1.0		True	
+Chaetura pelagica	Aves		Apodiformes	Apodidae	104397946	XP_010006270.1	XM_010007968.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	430.0		1.0		True	
+Chamaea fasciata	Aves		Passeriformes	Sylviidae	136301707	XP_066060964.1	XM_066204867.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	741.0		1.0		True	
+Charadrius vociferus	Aves		Charadriiformes	Charadriidae	104285390	XP_009882147.1	XM_009883845.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	440.0		1.0		True	
+Chelonia mydas	Testudines		Testudines	Cheloniidae	102932440	XP_037743053.1	XM_037887125.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	571.0		1.0		True	
+Chelonoidis abingdonii	Testudines		Testudines	Testudinidae	116831498	XP_032647449.1	XM_032791558.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	552.0		1.0		True	
+Chlamydotis macqueenii	Aves		Otidiformes	Otididae	104477375	XP_086622977.1	XM_086766851.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	833.0		1.0		True	
+Chroicocephalus ridibundus	Aves		Charadriiformes	Laridae	134524613	XP_063210856.1	XM_063354786.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	461.0		1.0		True	
+Chrysemys picta bellii	Testudines		Testudines	Emydidae	101932261	XP_008160847.1	XM_008162625.3	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	536.0		1.0		True	
+Clangula hyemalis	Aves		Anseriformes	Anatidae	310978782	XP_083817507.1	XM_083961381.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	832.0		1.0		True	
+Colius striatus	Aves		Coliiformes	Coliidae	133628387	XP_061872468.1	XM_062016484.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	531.0		1.0		True	
+Columba livia	Aves		Columbiformes	Columbidae	102098028	XP_064895594.1	XM_065039522.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	823.0		1.0		True	
+Corapipo altera	Aves		Passeriformes	Pipridae	113957354	XP_027520551.1	XM_027664750.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	517.0		1.0		True	
+Corvus brachyrhynchos	Aves		Passeriformes	Corvidae	103619888	XP_017596021.1	XM_017740532.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	764.0		1.0		True	
+Corvus kubaryi	Aves		Passeriformes	Corvidae	121676649	XP_041909884.1	XM_042053950.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	734.0		1.0		True	
+Corvus moneduloides	Aves		Passeriformes	Corvidae	116456004	XP_031990340.1	XM_032134449.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	746.0		1.0		True	
+Coturnix japonica	Aves		Galliformes	Phasianidae	107325179	XP_015741260.2	XM_015885774.3	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	793.0		1.0		True	
+Crocodylus porosus	Crocodylia		Crocodylia	Crocodylidae	109318950	XP_019403998.1	XM_019548453.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	516.0		1.0		True	
+Crotalus tigris	Lepidosauria		Squamata	Viperidae	120315157	XP_039214966.1	XM_039359032.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	663.0		1.0		True	
+Cuculus canorus	Aves		Cuculiformes	Cuculidae	104057959	XP_053944094.1	XM_054088119.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	787.0		0.0		False	best isoform covers less than 0.9 of exon 10
+Cyanistes caeruleus	Aves		Passeriformes	Paridae	111940054	XP_086720257.1	XM_086864131.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	790.0		1.0		True	
+Cygnus columbianus	Aves		Anseriformes	Anatidae	309892099	XP_082642475.1	XM_082786349.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Cygnus olor	Aves		Anseriformes	Anatidae	121059629	XP_040392549.1	XM_040536615.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	834.0		1.0		True	
+Cyrtonyx montezumae	Aves		Galliformes	Odontophoridae	136055474	XP_065603304.1	XM_065747232.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	781.0		1.0		True	
+Dendrobates tinctorius	Anura		Anura	Dendrobatidae	141096028	XP_073438482.1	XM_073582381.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	732.0		1.0		True	
+Dendropsophus ebraccatus	Anura		Anura	Hylidae	138772245	XP_069808611.1	XM_069952510.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	679.0		1.0		True	
+Dermochelys coriacea	Testudines		Testudines	Dermochelyidae	119849155	XP_038241865.1	XM_038385937.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	536.0		1.0		True	
+Dromaius novaehollandiae	Aves		Casuariiformes	Dromaiidae	112982776	XP_064380612.1	XM_064524542.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	834.0		1.0		True	
+Dryobates pubescens	Aves		Piciformes	Picidae	104309233	XP_054032879.1	XM_054176904.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	750.0		1.0		True	
+Egretta garzetta	Aves		Pelecaniformes	Ardeidae	104127025	XP_035751047.1	XM_035895154.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	440.0		1.0		True	
+Eleutherodactylus coqui	Anura		Anura	Eleutherodactylidae	136587342	XP_066442008.1	XM_066585911.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	623.0		1.0		True	
+Elgaria multicarinata webbii	Lepidosauria		Squamata	Anguidae	134406753	XP_062994369.1	XM_063138299.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	454.0		1.0		True	
+Empidonax traillii	Aves		Passeriformes	Tyrannidae	114071148	XP_027764653.1	XM_027908852.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	801.0		1.0		True	
+Emydura macquarii macquarii	Testudines		Testudines	Chelidae	137148346	XP_067397140.1	XM_067541039.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	520.0		1.0		True	
+Erithacus rubecula	Aves		Passeriformes	Turdidae	306812955	XP_079184033.1	XM_079327907.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	478.0		1.0		True	
+Eublepharis macularius	Lepidosauria		Squamata	Eublepharidae	129338852	XP_054849340.1	XM_054993365.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	477.0		1.0		True	
+Euleptes europaea	Lepidosauria		Squamata	Sphaerodactylidae	130490118	XP_056719899.1	XM_056863921.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	436.0		1.0		True	
+Eurypyga helias	Aves		Eurypygiformes	Eurypygidae	104512423	XP_010153695.1	XM_010155393.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	246.0		1.0		True	
+Excalfactoria chinensis	Aves		Galliformes	Phasianidae	140262482	XP_072212956.1	XM_072356855.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	463.0		1.0		True	
+Falco biarmicus	Aves		Falconiformes	Falconidae	130160310	XP_056218677.1	XM_056362702.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	471.0		1.0		True	
+Falco cherrug	Aves		Falconiformes	Falconidae	102046942	XP_055553809.1	XM_055697834.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	440.0		1.0		True	
+Falco naumanni	Aves		Falconiformes	Falconidae	121099018	XP_040473555.1	XM_040617621.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	471.0		1.0		True	
+Falco peregrinus	Aves		Falconiformes	Falconidae	101924165	XP_055646105.1	XM_055790130.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	440.0		1.0		True	
+Falco punctatus	Aves		Falconiformes	Falconidae	308055537	XP_080225709.1	XM_080369583.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	772.0		1.0		True	
+Falco rusticolus	Aves		Falconiformes	Falconidae	119158918	XP_037267278.1	XM_037411381.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	471.0		1.0		True	
+Ficedula albicollis	Aves		Passeriformes	Muscicapidae	101818271	XP_005059937.2	XM_005059880.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	891.0		1.0		True	
+Gallinula chloropus	Aves		Gruiformes	Rallidae	311201193	XP_084131651.1	XM_084275525.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	823.0		1.0		True	
+Gallus gallus	Aves		Galliformes	Phasianidae	426737	NP_001384418.1	NM_001397489.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	806.0		1.0		True	
+Gavia stellata	Aves		Gaviiformes	Gaviidae	104258644	XP_059686418.1	XM_059830435.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	838.0		1.0		True	
+Gavialis gangeticus	Crocodylia		Crocodylia	Gavialidae	109302104	XP_019379166.1	XM_019523621.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	516.0		1.0		True	
+Geospiza fortis	Aves		Passeriformes	Thraupidae	102033466	XP_030920216.1	XM_031064356.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	511.0		1.0		True	
+Gopherus evgoodei	Testudines		Testudines	Testudinidae	115638928	XP_030396906.1	XM_030541046.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	552.0		1.0		True	
+Gopherus flavomarginatus	Testudines		Testudines	Testudinidae	127040634	XP_050790985.1	XM_050935028.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	552.0		1.0		True	
+Grus americana	Aves		Gruiformes	Gruidae	129195324	XP_054657180.1	XM_054801205.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	833.0		1.0		True	
+Grus grus	Aves		Gruiformes	Gruidae	308708462	XP_081252552.1	XM_081396426.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	833.0		1.0		True	
+Gymnogyps californianus	Aves		Accipitriformes	Cathartidae	127026480	XP_050767711.1	XM_050911754.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	549.0		1.0		True	
+Haemorhous mexicanus	Aves		Passeriformes	Fringillidae	132339199	XP_059725331.1	XM_059869348.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	742.0		1.0		True	
+Haliaeetus albicilla	Aves		Accipitriformes	Accipitridae	104322734	XP_069642712.1	XM_069786611.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Haliaeetus leucocephalus	Aves		Accipitriformes	Accipitridae	104827993	XP_010559710.1	XM_010561408.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	531.0		1.0		True	
+Harpia harpyja	Aves		Accipitriformes	Accipitridae	128140815	XP_052641087.1	XM_052785127.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Heliangelus exortis	Aves		Apodiformes	Trochilidae	139788533	XP_071584653.1	XM_071728552.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	794.0		1.0		True	
+Heteronotia binoei	Lepidosauria		Squamata	Gekkonidae	132584307	XP_060112141.1	XM_060256158.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	436.0		1.0		True	
+Hirundo rustica	Aves		Passeriformes	Hirundinidae	120763684	XP_039943087.1	XM_040087153.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	791.0		1.0		True	
+Hyla sarda	Anura		Anura	Hylidae	130296756	XP_056404619.1	XM_056548644.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	762.0		1.0		True	
+Hyperolius riggenbachi	Anura		Anura	Hyperoliidae	137541990	XP_068119682.1	XM_068263581.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	709.0		1.0		True	
+Indicator indicator	Aves		Piciformes	Indicatoridae	128978471	XP_054252387.1	XM_054396412.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	778.0		1.0		True	
+Lacerta agilis	Lepidosauria		Squamata	Lacertidae	117058604	XP_033025748.1	XM_033169857.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	598.0		1.0		True	
+Lagopus leucura	Aves		Galliformes	Phasianidae	122192157	XP_042748575.1	XM_042892641.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	804.0		1.0		True	
+Lagopus muta	Aves		Galliformes	Phasianidae	125684645	XP_048782899.1	XM_048926942.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	804.0		1.0		True	
+Larus argentatus	Aves		Charadriiformes	Laridae	309456570	XP_081943311.1	XM_082087185.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	868.0		1.0		True	
+Larus michahellis	Aves		Charadriiformes	Laridae	141732595	XP_074417933.1	XM_074561832.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	891.0		1.0		True	
+Lathamus discolor	Aves		Psittaciformes	Psittacidae	136023867	XP_065554892.1	XM_065698820.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	818.0		1.0		True	
+Lepidochelys kempii	Testudines		Testudines	Cheloniidae	140903744	XP_073181587.1	XM_073325486.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	515.0		0.0		False	best isoform covers less than 0.9 of exon 10
+Lepidochelys olivacea	Testudines		Testudines	Cheloniidae	311513877	XP_084472163.1	XM_084616037.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	536.0		1.0		True	
+Lepidothrix coronata	Aves		Passeriformes	Pipridae	108506364	XP_017688787.1	XM_017833298.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	735.0		1.0		True	
+Leptosomus discolor	Aves		Leptosomiformes	Leptosomidae	104344912	XP_086333927.1	XM_086477801.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	833.0		1.0		True	
+Lichenostomus cassidix	Aves		Passeriformes	Meliphagidae	146426795	XP_084896089.1	XM_085039963.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	797.0		1.0		True	
+Lissotriton helveticus	Caudata		Caudata	Salamandridae	144755792	XP_078501166.1	XM_078645040.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	538.0		1.0		True	
+Lissotriton vulgaris	Caudata		Caudata	Salamandridae	147716930	XP_086779924.1	XM_086923798.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	538.0		1.0		True	
+Lonchura striata	Aves		Passeriformes	Estrildidae	110474819	XP_085417760.1	XM_085561634.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	735.0		1.0		True	
+Malaclemys terrapin pileata	Testudines		Testudines	Emydidae	128829058	XP_053870160.1	XM_054014185.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	536.0		1.0		True	
+Malurus melanocephalus	Aves		Passeriformes	Maluridae	130586240	XP_057242959.1	XM_057386976.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	735.0		1.0		True	
+Manacus candei	Aves		Passeriformes	Pipridae	127461185	XP_051624661.1	XM_051768701.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	784.0		1.0		True	
+Manacus vitellinus	Aves		Passeriformes	Pipridae	103757351	XP_017940101.2	XM_018084612.3	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	764.0		1.0		True	
+Mauremys mutica	Testudines		Testudines	Geoemydidae	123356217	XP_044855148.1	XM_044999213.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	636.0		1.0		True	
+Mauremys reevesii	Testudines		Testudines	Geoemydidae	120392018	XP_039372233.1	XM_039516299.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	552.0		1.0		True	
+Melanerpes formicivorus	Aves		Piciformes	Picidae	137455524	XP_068022543.1	XM_068166442.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	750.0		1.0		True	
+Meleagris gallopavo	Aves		Galliformes	Phasianidae	100545041	XP_085067312.1	XM_085211186.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	832.0		1.0		True	
+Melopsittacus undulatus	Aves		Psittaciformes	Psittaculidae	101870132	XP_033925886.1	XM_034069995.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	433.0		1.0		True	
+Melospiza georgiana	Aves		Passeriformes	Passerellidae	131094281	XP_057897829.1	XM_058041846.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	457.0		1.0		True	
+Melospiza melodia melodia	Aves		Passeriformes	Passerellidae	134431038	XP_063035066.1	XM_063178996.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	780.0		1.0		True	
+Melozone crissalis	Aves		Passeriformes	Passerellidae	128940355	XP_054137710.1	XM_054281735.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	787.0		1.0		True	
+Mesitornis unicolor	Aves		Mesitornithiformes	Mesitornithidae	104542865	XP_010185625.1	XM_010187323.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	414.0		1.0		True	
+Microcaecilia unicolor	Gymnophiona		Gymnophiona	Siphonopidae	115481554	XP_030076639.1	XM_030220779.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	486.0		0.16		False	best isoform covers less than 0.9 of exon 10
+Mixophyes fleayi	Anura		Anura	Limnodynastidae	142094570	XP_075032953.1	XM_075176852.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	744.0		1.0		True	
+Molothrus aeneus	Aves		Passeriformes	Icteridae	136567375	XP_066423074.1	XM_066566977.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	791.0		1.0		True	
+Molothrus ater	Aves		Passeriformes	Icteridae	118696743	XP_036254926.1	XM_036399033.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	457.0		1.0		True	
+Motacilla alba alba	Aves		Passeriformes	Motacillidae	119712307	XP_038019268.1	XM_038163340.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	799.0		1.0		True	
+Mycteria americana	Aves		Ciconiiformes	Ciconiidae	142419640	XP_075378924.1	XM_075522809.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Myiozetetes cayanensis	Aves		Passeriformes	Tyrannidae	126646350	XP_050183586.1	XM_050327629.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	808.0		1.0		True	
+Natator depressus	Testudines		Testudines	Cheloniidae	141978457	XP_074796675.1	XM_074940574.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	536.0		1.0		True	
+Natrix helvetica	Lepidosauria		Squamata	Natricidae	309400952	XP_081825878.1	XM_081969752.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	482.0		1.0		True	
+Neopelma chrysocephalum	Aves		Passeriformes	Pipridae	113976754	XP_027558035.1	XM_027702234.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	795.0		1.0		True	
+Neopsephotus bourkii	Aves		Psittaciformes	Psittacidae	133220073	XP_061223865.1	XM_061367881.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	818.0		1.0		True	
+Nesoenas mayeri	Aves		Columbiformes	Columbidae	308049790	XP_080215770.1	XM_080359644.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	826.0		1.0		True	
+Nestor notabilis	Aves		Psittaciformes	Psittacidae	104402756	XP_010009020.1	XM_010010718.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	771.0		1.0		True	
+Netta rufina	Aves		Anseriformes	Anatidae	311218519	XP_084157338.1	XM_084301212.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	831.0		1.0		True	
+Nipponia nippon	Aves		Pelecaniformes	Threskiornithidae	104012255	XP_087626592.1	XM_087770466.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	856.0		1.0		True	
+Notechis scutatus	Lepidosauria		Squamata	Elapidae	113420030	XP_087801559.1	XM_087945433.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	475.0		1.0		True	
+Nothoprocta perdicaria	Aves		Tinamiformes	Tinamidae	112960247	XP_025910242.1	XM_026054457.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	472.0		1.0		True	
+Numenius arquata	Aves		Charadriiformes	Scolopacidae	141474621	XP_074018703.1	XM_074162602.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	815.0		1.0		True	
+Numida meleagris	Aves		Galliformes	Numididae	110388458	XP_021233412.1	XM_021377737.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	941.0		1.0		True	
+Nyctibius grandis	Aves		Nyctibiiformes	Nyctibiidae	137673906	XP_068275074.1	XM_068418973.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	874.0		1.0		True	
+Oenanthe melanoleuca	Aves		Passeriformes	Muscicapidae	130264028	XP_056367931.1	XM_056511956.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	492.0		1.0		True	
+Onychostruthus taczanowskii	Aves		Passeriformes	Passeridae	121347686	XP_041282447.1	XM_041426513.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	788.0		1.0		True	
+Opisthocomus hoazin	Aves		Opisthocomiformes	Opisthocomidae	104338719	XP_075299913.1	XM_075443798.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	824.0		1.0		True	
+Oxyura jamaicensis	Aves		Anseriformes	Anatidae	118178912	XP_035203683.1	XM_035347792.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Pantherophis guttatus	Lepidosauria		Squamata	Colubridae	117664691	XP_087750112.1	XM_087893986.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	440.0		1.0		True	
+Paroedura picta	Lepidosauria		Squamata	Gekkonidae	143826341	XP_077171207.1	XM_077315092.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	453.0		1.0		True	
+Parus major	Aves		Passeriformes	Paridae	107215247	XP_015506761.1	XM_015651275.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	788.0		1.0		True	
+Passer domesticus	Aves		Passeriformes	Passeridae	135286693	XP_064255914.1	XM_064399844.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	781.0		1.0		True	
+Passer montanus	Aves		Passeriformes	Passeridae	120498170	XP_039556511.1	XM_039700577.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	753.0		1.0		True	
+Patagioenas fasciata	Aves		Columbiformes	Columbidae	136111768	XP_065712211.1	XM_065856139.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	521.0		1.0		True	
+Pelodiscus sinensis	Testudines		Testudines	Trionychidae	102450787	XP_025041758.2	XM_025185973.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	527.0		1.0		True	
+Pezoporus flaviventris	Aves		Psittaciformes	Psittacidae	133262759	XP_061298211.1	XM_061442227.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	817.0		1.0		True	
+Pezoporus occidentalis	Aves		Psittaciformes	Psittacidae	134171519	XP_062489789.1	XM_062633805.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	817.0		1.0		True	
+Pezoporus wallicus	Aves		Psittaciformes	Psittacidae	130606059	XP_057277988.1	XM_057422005.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	817.0		1.0		True	
+Phaenicophaeus curvirostris	Aves		Cuculiformes	Cuculidae	138731374	XP_069733385.1	XM_069877284.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	828.0		1.0		True	
+Phaethon aethereus	Aves		Phaethontiformes	Phaethontidae	309413342	XP_081866589.1	XM_082010463.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	839.0		1.0		True	
+Phaethon lepturus	Aves		Phaethontiformes	Phaethontidae	104616562	XP_010279912.1	XM_010281610.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	441.0		1.0		True	
+Phalacrocorax aristotelis	Aves		Suliformes	Phalacrocoracidae	142068020	XP_074973255.1	XM_075117154.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Phalacrocorax carbo	Aves		Suliformes	Phalacrocoracidae	104042733	XP_064329673.1	XM_064473603.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Phasianus colchicus	Aves		Galliformes	Phasianidae	116233797	XP_031456747.1	XM_031600887.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	520.0		1.0		True	
+Phyllobates terribilis	Anura		Anura	Dendrobatidae	141272411	XP_073539203.1	XM_073683102.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	731.0		1.0		True	
+Pipra filicauda	Aves		Passeriformes	Pipridae	113993234	XP_027586987.1	XM_027731186.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	517.0		1.0		True	
+Pithys albifrons albifrons	Aves		Passeriformes	Thamnophilidae	139682800	XP_071433480.1	XM_071577379.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	796.0		1.0		True	
+Platalea leucorodia	Aves		Pelecaniformes	Threskiornithidae	309599980	XP_082188064.1	XM_082331938.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Pleurodeles waltl	Caudata		Caudata	Salamandridae	138299617	XP_069094141.1	XM_069238040.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	960.0		1.0		True	
+Podarcis bocagei	Lepidosauria		Squamata	Lacertidae	308571587	XP_081023330.1	XM_081167204.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	438.0		1.0		True	
+Podarcis cretensis	Lepidosauria		Squamata	Lacertidae	307200285	XP_079804885.1	XM_079948759.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	504.0		1.0		True	
+Podarcis erhardii	Lepidosauria		Squamata	Lacertidae	309327648	XP_081693132.1	XM_081837006.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	504.0		1.0		True	
+Podarcis filfolensis	Lepidosauria		Squamata	Lacertidae	310747802	XP_083439133.1	XM_083583007.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	591.0		1.0		True	
+Podarcis gaigeae	Lepidosauria		Squamata	Lacertidae	310829746	XP_083564655.1	XM_083708529.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	481.0		1.0		True	
+Podarcis liolepis	Lepidosauria		Squamata	Lacertidae	310691725	XP_083327778.1	XM_083471652.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	504.0		1.0		True	
+Podarcis melisellensis	Lepidosauria		Squamata	Lacertidae	309355444	XP_081742430.1	XM_081886304.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	504.0		1.0		True	
+Podarcis muralis	Lepidosauria		Squamata	Lacertidae	114582250	XP_028558947.1	XM_028703114.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	570.0		1.0		True	
+Podarcis pityusensis	Lepidosauria		Squamata	Lacertidae	308461591	XP_080834747.1	XM_080978621.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	438.0		1.0		True	
+Podarcis raffonei	Lepidosauria		Squamata	Lacertidae	128399828	XP_053217585.1	XM_053361610.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	591.0		1.0		True	
+Podarcis tiliguerta	Lepidosauria		Squamata	Lacertidae	310663297	XP_083267115.1	XM_083410989.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	481.0		1.0		True	
+Podarcis vaucheri	Lepidosauria		Squamata	Lacertidae	309516797	XP_082051812.1	XM_082195686.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	438.0		1.0		True	
+Poecile atricapillus	Aves		Passeriformes	Paridae	131588774	XP_058713723.1	XM_058857740.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	673.0		1.0		True	
+Pogoniulus pusillus	Aves		Piciformes	Lybiidae	135191931	XP_064030706.1	XM_064174636.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	806.0		1.0		True	
+Prinia subflava	Aves		Passeriformes	Cisticolidae	134553692	XP_063259776.1	XM_063403706.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	426.0		1.0		True	
+Protobothrops mucrosquamatus	Lepidosauria		Squamata	Viperidae	107303054	XP_029143182.1	XM_029287349.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	411.0		1.0		True	
+Pseudonaja textilis	Lepidosauria		Squamata	Elapidae	113447380	XP_026573332.1	XM_026717547.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	475.0		1.0		True	
+Pseudopipra pipra	Aves		Passeriformes	Pipridae	135403108	XP_064492861.1	XM_064636791.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	807.0		1.0		True	
+Pseudopodoces humilis	Aves		Passeriformes	Paridae	102103099	XP_014116502.2	XM_014261027.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	790.0		1.0		True	
+Psittacula echo	Aves		Psittaciformes	Psittacidae	308229276	XP_080489336.1	XM_080633210.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	819.0		1.0		True	
+Pygoscelis adeliae	Aves		Sphenisciformes	Spheniscidae	103913879	XP_009318715.1	XM_009320440.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Pyrgilauda ruficollis	Aves		Passeriformes	Passeridae	121352427	XP_041321301.1	XM_041465367.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	475.0		1.0		True	
+Python bivittatus	Lepidosauria		Squamata	Pythonidae	103060127	XP_007422443.1	XM_007422381.4	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	506.0		1.0		True	
+Ranitomeya imitator	Anura		Anura	Dendrobatidae	138664527	XP_069607400.1	XM_069751299.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	671.0		1.0		True	
+Rhea americana	Aves		Rheiformes	Rheidae	146593053	XP_085166051.1	XM_085309925.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	837.0		1.0		True	
+Rhea pennata	Aves		Rheiformes	Rheidae	134151163	XP_062451460.1	XM_062595476.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	531.0		1.0		True	
+Rhineura floridana	Lepidosauria		Squamata	Rhineuridae	133367050	XP_061446690.1	XM_061590706.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	581.0		1.0		True	
+Rissa tridactyla	Aves		Charadriiformes	Laridae	128919183	XP_054080259.1	XM_054224284.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	869.0		1.0		True	
+Sceloporus occidentalis	Lepidosauria		Squamata	Phrynosomatidae	149309203	XP_089388070.1	XM_089531944.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	641.0		1.0		True	
+Sceloporus undulatus	Lepidosauria		Squamata	Phrynosomatidae	121933530	XP_042329336.1	XM_042473402.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	641.0		1.0		True	
+Serinus canaria	Aves		Passeriformes	Fringillidae	103821801	XP_050841419.1	XM_050985462.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Sphaerodactylus townsendi	Lepidosauria		Squamata	Sphaerodactylidae	125444476	XP_048372857.1	XM_048516900.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	436.0		1.0		True	
+Streptopelia decaocto	Aves		Columbiformes	Columbidae	309448831	XP_081926739.1	XM_082070613.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	827.0		1.0		True	
+Strigops habroptila	Aves		Psittaciformes	Psittacidae	115617782	XP_030364521.1	XM_030508661.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	471.0		1.0		True	
+Strix aluco	Aves		Strigiformes	Strigidae	141934416	XP_074705940.1	XM_074849839.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Strix uralensis	Aves		Strigiformes	Strigidae	141953668	XP_074748525.1	XM_074892424.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Struthio camelus	Aves		Struthioniformes	Struthionidae	104148951	XP_068775566.1	XM_068919465.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	833.0		1.0		True	
+Sturnus vulgaris	Aves		Passeriformes	Sturnidae	106861189	XP_088035690.1	XM_088179564.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	756.0		1.0		True	
+Sylvia atricapilla	Aves		Passeriformes	Sylviidae	136372310	XP_066192981.1	XM_066336884.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	731.0		1.0		True	
+Taeniopygia guttata	Aves		Passeriformes	Estrildidae	100225617	XP_041577394.2	XM_041721460.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	737.0		1.0		True	
+Terrapene triunguis	Testudines		Testudines	Emydidae	112103423	XP_026510619.1	XM_026654834.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	536.0		1.0		True	
+Tetrao urogallus	Aves		Galliformes	Phasianidae	306955683	XP_079403154.1	XM_079547028.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	804.0		1.0		True	
+Thamnophis elegans	Lepidosauria		Squamata	Natricidae	116522159	XP_032092766.1	XM_032236875.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	504.0		1.0		True	
+Thamnophis sirtalis	Lepidosauria		Squamata	Natricidae	106545992	XP_013918208.2	XM_014062733.2	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	419.0		1.0		True	
+Tiliqua scincoides	Lepidosauria		Squamata	Scincidae	136651485	XP_066484016.1	XM_066627919.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	574.0		1.0		True	
+Trachemys scripta elegans	Testudines		Testudines	Emydidae	117869222	XP_034611771.1	XM_034755880.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	536.0		1.0		True	
+Triturus cristatus	Caudata		Caudata	Salamandridae	146871105	XP_085506402.1	XM_085650276.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	314.0		1.0		True	
+Tympanuchus pallidicinctus	Aves		Galliformes	Phasianidae	128088784	XP_052555534.1	XM_052699574.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	802.0		1.0		True	
+Tyto alba	Aves		Strigiformes	Tytonidae	104359825	XP_042643089.1	XM_042787155.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	836.0		1.0		True	
+Vanellus vanellus	Aves		Charadriiformes	Charadriidae	309681099	XP_082351039.1	XM_082494913.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	835.0		1.0		True	
+Varanus komodoensis	Lepidosauria		Squamata	Varanidae	123031722	XP_044302906.1	XM_044446971.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	570.0		1.0		True	
+Vidua chalybeata	Aves		Passeriformes	Viduidae	128800107	XP_053821011.1	XM_053965036.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	510.0		1.0		True	
+Vidua macroura	Aves		Passeriformes	Viduidae	128819744	XP_053856011.1	XM_054000036.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	510.0		1.0		True	
+Vipera berus	Lepidosauria		Squamata	Viperidae	308678126	XP_081201130.1	XM_081345004.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	486.0		1.0		True	
+Vipera ursinii	Lepidosauria		Squamata	Viperidae	310649636	XP_083234373.1	XM_083378247.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	455.0		0.0		False	best isoform covers less than 0.9 of exon 10
+Xenopus tropicalis	Anura		Anura	Pipidae	779920	XP_012808021.2	XM_012952567.3	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	647.0		1.0		True	
+Zonotrichia albicollis	Aves		Passeriformes	Passerellidae	102062388	XP_074413775.1	XM_074557674.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	805.0		1.0		True	
+Zonotrichia leucophrys gambelii	Aves		Passeriformes	Passerellidae	135458369	XP_064589538.1	XM_064733468.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	801.0		1.0		True	
+Zootoca vivipara	Lepidosauria		Squamata	Lacertidae	118094470	XP_034990813.1	XM_035134922.3	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	699.0		1.0		True	
+Zosterops lateralis	Aves		Passeriformes	Zosteropidae	310918637	XP_083733675.1	XM_083877549.1	NCBI Datasets orthologs of human MAPT (Gene ID 4137)	788.0		1.0		True	

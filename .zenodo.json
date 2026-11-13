@@ -1,0 +1,28 @@
+{
+  "title": "Scripts and derived data for the analysis of synonymous constraint on MAPT exon 10 in mammals and other tetrapods",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Alemán-Gutiérrez, Alvaro",
+      "orcid": "0000-0001-9916-6980",
+      "affiliation": "Instituto Tecnológico de Costa Rica; Universidad del Bío-Bío"
+    }
+  ],
+  "description": "<p>Code and derived data behind a study of synonymous constraint on <i>MAPT</i> (tau) exon 10 in mammals and other tetrapods.</p><p>One homologous 2N4R-equivalent sequence was selected per species for 259 mammals from 23 orders, built where necessary by in silico removal of the exons that the human 2N4R isoform lacks, so that exon-level comparisons do not depend on which isoform a database happened to annotate. Codon models in HyPhy separated synonymous from nonsynonymous divergence, with FEL, FUBAR and MEME per site, SLAC per order and RELAX on three primate clades. A panel of 236 non-mammalian tetrapods extends the comparison beyond mammals, with FUBAR run within birds, squamates, turtles, frogs and salamanders, and <i>MAPT</i> was reconstructed from two hyrax genome assemblies because no annotated ortholog exists for Hyracoidea.</p><p>The record holds the numbered analysis scripts, the inputs retrieved from NCBI, the protein and codon alignments, the maximum likelihood trees and the taxonomy constraint trees, the HyPhy output, the hyrax gene models, and the tables and figures the scripts produce. Genome assemblies and BLAST databases are not included, because they are public and are cited by accession, GCA_004026925.3 for <i>Procavia capensis</i> and GCA_028571685.1 for <i>Heterohyrax brucei</i>.</p>",
+  "license": "MIT",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "MAPT",
+    "tau",
+    "molecular evolution",
+    "alternative splicing",
+    "exon 10",
+    "synonymous constraint",
+    "purifying selection",
+    "Mammalia",
+    "Tetrapoda",
+    "HyPhy",
+    "codon models"
+  ]
+}

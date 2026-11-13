@@ -1,0 +1,73 @@
+
+Analysis Description
+--------------------
+SLAC (Single Likelihood Ancestor Counting) uses a maximum likelihood
+ancestral state reconstruction and minimum path substitution counting to
+estimate site - level dS and dN, and applies a simple binomial - based
+test to test if dS differs drom dN. The estimates aggregate information
+over all branches, so the signal is derived from pervasive
+diversification or conservation. A subset of branches can be selected
+for testing as well. Multiple partitions within a NEXUS file are also
+supported for recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Not So Different After All: A Comparison of Methods for Detecting Amino
+Acid Sites Under Selection (2005). _Mol Biol Evol_ 22 (5): 1208-1222
+
+- __Written by__: Sergei L Kosakovsky Pond and Simon DW Frost
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.00
+
+
+>code => Universal
+results/selection/Perissodactyla.nwk
+results/selection/Perissodactyla.nwk
+
+>Loaded a multiple sequence alignment with **6** sequences, **563** codons, and **1** partitions from `results/selection/Perissodactyla.codon.fna`
+
+>branches => All
+
+>Select the number of samples used to assess ancestral reconstruction uncertainty [select 0 to skip] (permissible range = [0,100000], default value = 100, integer): 
+>samples => 100
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue => 0.1
+
+
+### Branches to include in the SLAC analysis
+Selected 9 branches to include in SLAC calculations: `Equus_caballus, Equus_przewalskii, Equus_quagga, Node4, Equus_asinus, Node3, Ceratotherium_simum_simum, Diceros_bicornis_minor, Node8`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 2 zero-length internal branches: `Node3, Node4`
+* Log(L) = -2240.38, AIC-c =  4514.82 (17 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.061
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -2144.04, AIC-c =  4332.38 (22 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.063
+* non-synonymous/synonymous rate ratio for *test* =   0.0910
+
+### Performing joint maximum likelihood ancestral state reconstruction
+
+### For partition 1 these sites are significant at p <=0.1
+
+|     Codon      |   Partition    |       S        |       N        |       dS       |       dN       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+|       17       |       1        |     2.000      |     0.000      |     2.704      |     0.000      |  Neg. p = 0.061   |
+
+### Ancestor sampling analysis
+
+>Generating 100 ancestral sequence samples to obtain confidence intervals
+
+Resampling results for partition 1
+
+|     Codon      |   Partition    |    S [median, IQR]    |    N [median, IQR]    |    dS [median, IQR]    |    dN [median, IQR]    |  p-value [median, IQR]  |
+|:--------------:|:--------------:|:---------------------:|:---------------------:|:----------------------:|:----------------------:|:-----------------------:|
+|       17       |       1        |   2.00 [2.00-2.00]    |   0.00 [0.00-0.00]    |    2.70 [2.70-2.70]    |    0.00 [0.00-0.00]    |    0.06 [0.06-0.06]     |

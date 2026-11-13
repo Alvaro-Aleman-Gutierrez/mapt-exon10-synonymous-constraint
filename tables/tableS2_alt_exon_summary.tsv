@@ -1,0 +1,16 @@
+exon	set	species	mean_identity	min_identity	min_aligned_aa	max_aligned_aa	human_aa	species_pct
+E4aL	alternative	139	0.581	0.313	60	104	104	54
+E4a	alternative	220	0.676	0.328	168	251	251	85
+E6	alternative	231	0.845	0.212	33	66	66	89
+E8	alternative	152	0.737	0.154	13	18	18	59
+E1	core	132	0.79	0.533	44	45	45	51
+E2	core	244	0.898	0.571	27	29	29	94
+E3	core	242	0.876	0.621	27	29	29	93
+E4	core	259	0.9	0.714	21	22	22	100
+E5	core	236	0.81	0.471	17	18	18	91
+E7	core	241	0.879	0.548	40	43	43	93
+E9	core	257	0.96	0.847	85	88	88	99
+E10	core	258	0.996	0.936	31	31	31	100
+E11	core	259	1.0	0.964	28	28	28	100
+E12	core	259	0.989	0.919	37	37	37	100
+E13	core	259	0.989	0.873	71	71	71	100

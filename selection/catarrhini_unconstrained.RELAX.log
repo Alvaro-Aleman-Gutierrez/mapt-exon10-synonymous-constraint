@@ -1,0 +1,153 @@
+multiple-files: No
+
+Analysis Description
+--------------------
+RELAX (a random effects test of selection relaxation) uses a random
+effects branch-site model framework to test whether a set of 'Test'
+branches evolves under relaxed selection relative to a set of
+'Reference' branches (R), as measured by the relaxation parameter (K).
+Version 2.1 adds a check for stability in K estimates to try to mitigate
+convergence problems. Version 3 provides support for >2 branch sets.
+Version 3.1 adds LHC + Nedler-Mead initial fit phase and keyword
+support. Version 3.1.1 adds some bug fixes for better convergence.
+Version 4.0 adds support for synonymous rate variation. Version 4.1 adds
+further support for multiple hit models. Version 4.1.1 adds reporting
+for convergence diagnostics. Version 4.5 adds support for multiple
+datasets for joint testing. Version 4.6 adds support for branch- and
+site-level evidence ratio calculation. Version 4.7 adds support for
+error-sink options to accommodate sequencing/alignment errors.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree, with at least two
+groups of branches defined using the {} notation (one group can be
+defined as all unlabeled branches)
+
+- __Citation__: RELAX: Detecting Relaxed Selection in a Phylogenetic Framework (2015).
+Mol Biol Evol 32 (3): 820-832
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution g
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 4.7
+
+
+>code => Universal
+
+-------
+>[WARNING]
+'results/mapt_2N4R_final.codon.fna'
+contains 8 duplicate sequences. Identical sequences do not contribute
+any information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+results/selection/catarrhini_unconstrained.nwk
+results/selection/catarrhini_unconstrained.nwk
+
+>Loaded a multiple sequence alignment with **259** sequences, **563** codons, and **1** partitions from `results/mapt_2N4R_final.codon.fna`
+
+>test => Test
+The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size => 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points => 1
+
+
+### Branch sets for RELAX analysis
+
+>multiple-hits => None
+
+* Selected 472 branches as the _Reference_ set: `Acinonyx_jubatus, Acomys_minous, Acomys_russatus, Aethalodelphis_obliquidens, Alexandromys_fortis, Antechinus_flavipes, Aotus_nancymaae, Apodemus_sylvaticus, Artibeus_jamaicensis, Arvicanthis_niloticus, Arvicola_amphibius, Balaenoptera_acutorostrata, Balaenoptera_borealis, Balaenoptera_musculus, Balaenoptera_physalus, Balaenoptera_ricei, Bison_bison_bison, Bos_grunniens, Bos_indicus, Bos_indicus_x_Bos_taurus, Bos_javanicus, Bos_mutus, Bos_taurus, Bubalus_bubalis, Bubalus_kerabau, Budorcas_taxicolor, Callithrix_jacchus, Callorhinus_ursinus, Callospermophilus_lateralis, Camelus_bactrianus, Camelus_dromedarius, Camelus_ferus, Canis_aureus, Canis_lupus_baileyi, Canis_lupus_dingo, Canis_lupus_familiaris, Capra_hircus, Capricornis_sumatraensis, Castor_canadensis, Cavia_porcellus, Cebus_imitator, Ceratotherium_simum_simum, Cervus_canadensis, Cervus_elaphus, Chinchilla_lanigera, Chionomys_nivalis, Choloepus_didactylus, Chrysochloris_asiatica, Cnephaeus_nilssonii, Condylura_cristata, Crocuta_crocuta, Cynocephalus_volans, Dama_dama, Dasypus_novemcinctus, Delphinapterus_leucas, Delphinus_delphis, Desmodus_rotundus, Diceros_bicornis_minor, Dipodomys_merriami, Dipodomys_ordii, Dipodomys_spectabilis, Dromiciops_gliroides, Echinops_telfairi, Elephantulus_edwardii, Elephas_maximus_indicus, Eptesicus_fuscus, Equus_asinus, Equus_caballus, Equus_przewalskii, Equus_quagga, Eschrichtius_robustus, Eubalaena_glacialis, Eulemur_rufifrons, Eumetopias_jubatus, Felis_catus, Fukomys_damarensis, Giraffa_tippelskirchi, Gracilinanus_agilis, Grammomys_surdaster, Grampus_griseus, Halichoerus_grypus, Herpailurus_yagouaroundi, Heterocephalus_glaber, Hippopotamus_amphibius_kiboko, Hipposideros_armiger, Hyaena_hyaena, Hyperoodon_ampullatus, Ictidomys_tridecemlineatus, Jaculus_jaculus, Kogia_breviceps, Lagenorhynchus_albirostris, Lemur_catta, Leopardus_geoffroyi, Leptonychotes_weddellii, Lepus_europaeus, Leucopleurus_acutus, Lipotes_vexillifer, Lontra_canadensis, Loxodonta_africana, Lutra_lutra, Lynx_canadensis, Lynx_rufus, Manis_javanica, Manis_pentadactyla, Marmota_flaviventris, Marmota_marmota_marmota, Marmota_monax, Martes_martes, Mastomys_coucha, Meles_meles, Meriones_unguiculatus, Mesocricetus_auratus, Mesoplodon_bidens, Mesoplodon_densirostris, Mesoplodon_mirus, Microcebus_murinus, Micromys_minutus, Microtus_ochrogaster, Microtus_oregoni, Microtus_pennsylvanicus, Miniopterus_natalensis, Miniopterus_schreibersii, Mirounga_angustirostris, Mirounga_leonina, Molossus_molossus, Monodelphis_domestica, Monodon_monoceros, Moschus_berezovskii, Muntiacus_reevesi, Mus_caroli, Mus_musculus, Mus_pahari, Muscardinus_avellanarius, Mustela_erminea, Mustela_lutreola, Mustela_nigripes, Mustela_nivalis, Mustela_putorius_furo, Myodes_glareolus, Myotis_brandtii, Myotis_daubentonii, Myotis_lucifugus, Myotis_myotis, Myotis_nattereri, Myotis_yumanensis, Nannospalax_galili, Neofelis_nebulosa, Neogale_vison, Neomonachus_schauinslandi, Neophocaena_asiaeorientalis_asiaeorientalis, Node1, Node101, Node102, Node106, Node109, Node110, Node111, Node114, Node115, Node116, Node117, Node118, Node119, Node127, Node132, Node133, Node134, Node136, Node139, Node142, Node143, Node144, Node149, Node150, Node151, Node152, Node153, Node156, Node159, Node161, Node165, Node166, Node167, Node168, Node169, Node170, Node172, Node176, Node180, Node184, Node185, Node186, Node187, Node188, Node189, Node190, Node191, Node192, Node193, Node194, Node195, Node196, Node197, Node198, Node199, Node2, Node200, Node203, Node204, Node205, Node213, Node215, Node216, Node217, Node221, Node224, Node225, Node227, Node228, Node229, Node237, Node238, Node239, Node240, Node241, Node245, Node246, Node247, Node248, Node254, Node255, Node256, Node257, Node258, Node259, Node260, Node263, Node264, Node267, Node272, Node273, Node274, Node279, Node280, Node283, Node285, Node290, Node291, Node292, Node297, Node3, Node300, Node303, Node304, Node305, Node306, Node307, Node308, Node309, Node314, Node315, Node319, Node320, Node321, Node322, Node324, Node325, Node329, Node330, Node331, Node332, Node334, Node340, Node341, Node342, Node343, Node344, Node345, Node352, Node353, Node356, Node359, Node360, Node364, Node365, Node366, Node368, Node369, Node370, Node371, Node372, Node373, Node374, Node383, Node384, Node385, Node386, Node387, Node394, Node397, Node398, Node4, Node400, Node401, Node405, Node408, Node409, Node410, Node414, Node416, Node419, Node420, Node421, Node422, Node423, Node424, Node425, Node426, Node427, Node430, Node432, Node436, Node437, Node440, Node441, Node445, Node449, Node451, Node452, Node456, Node457, Node458, Node459, Node462, Node463, Node468, Node471, Node472, Node474, Node478, Node479, Node480, Node481, Node486, Node487, Node488, Node493, Node494, Node497, Node498, Node499, Node5, Node500, Node504, Node507, Node508, Node511, Node52, Node53, Node55, Node57, Node6, Node61, Node64, Node65, Node66, Node7, Node73, Node74, Node75, Node76, Node77, Node78, Node79, Node8, Node80, Node81, Node82, Node86, Node87, Node88, Node93, Node96, Node97, Node98, Notamacropus_eugenii, Nyctereutes_procyonoides, Nycticebus_coucang, Ochotona_curzoniae, Ochotona_princeps, Octodon_degus, Odobenus_rosmarus_divergens, Odocoileus_virginianus, Onychomys_torridus, Orcinus_orca, Ornithorhynchus_anatinus, Orycteropus_afer_afer, Oryctolagus_cuniculus, Oryx_dammah, Otolemur_garnettii, Ovis_aries, Ovis_canadensis, Panthera_leo, Panthera_onca, Panthera_pardus, Panthera_tigris, Panthera_uncia, Perognathus_longimembris_pacificus, Peromyscus_californicus_insignis, Peromyscus_eremicus, Peromyscus_leucopus, Peromyscus_maniculatus_bairdii, Petaurus_breviceps_papuanus, Phacochoerus_africanus, Phascolarctos_cinereus, Phoca_vitulina, Phocoena_phocoena, Phocoena_sinus, Phodopus_roborovskii, Phyllostomus_discolor, Phyllostomus_hastatus, Pipistrellus_hanaki, Pipistrellus_kuhlii, Plecotus_auritus, Prionailurus_bengalensis, Prionailurus_viverrinus, Propithecus_coquereli, Psammomys_obesus, Pseudorca_crassidens, Pteronotus_mesoamericanus, Pteropus_alecto, Pteropus_medius, Pteropus_vampyrus, Puma_concolor, Rattus_norvegicus, Rhinolophus_ferrumequinum, Rhinolophus_hipposideros, Rhinolophus_sinicus, Rousettus_aegyptiacus, Saccopteryx_bilineata, Saccopteryx_leptura, Saimiri_boliviensis, Sapajus_apella, Sarcophilus_harrisii, Sciurus_carolinensis, Sciurus_vulgaris, Sminthopsis_crassicaudata, Sorex_araneus, Sorex_fumeus, Spermophilus_citellus, Stenella_coeruleoalba, Sturnira_hondurensis, Suncus_etruscus, Sus_scrofa, Tachyglossus_aculeatus, Talpa_europaea, Talpa_occidentalis, Tamandua_tetradactyla, Tenrec_ecaudatus, Trichechus_manatus_latirostris, Trichosurus_vulpecula, Tupaia_belangeri_chinensis, Tursiops_truncatus, Urocitellus_parryii, Ursus_americanus, Ursus_arctos, Ursus_maritimus, Vicugna_pacos, Vombatus_ursinus, Vulpes_lagopus, Vulpes_vulpes, Zalophus_californianus`
+
+* Selected 43 branches as the _Test_ set: `Cercocebus_atys, Chlorocebus_sabaeus, Gorilla_gorilla_gorilla, Homo_sapiens, Hylobates_moloch, Macaca_fascicularis, Macaca_mulatta, Macaca_nemestrina, Macaca_thibetana_thibetana, Mandrillus_leucophaeus, Node10, Node11, Node12, Node13, Node14, Node20, Node23, Node24, Node25, Node26, Node27, Node28, Node29, Node30, Node31, Node32, Node42, Node43, Node45, Node49, Node9, Nomascus_leucogenys, Pan_paniscus, Pan_troglodytes, Papio_anubis, Piliocolobus_tephrosceles, Pongo_abelii, Pongo_pygmaeus, Rhinopithecus_bieti, Rhinopithecus_roxellana, Symphalangus_syndactylus, Theropithecus_gelada, Trachypithecus_francoisi`
+The number omega rate classes to include in the model (permissible range = [2,10], default value = 3, integer): 
+>rates => 3
+
+>models => Minimal
+
+>srv => No
+
+>error-sink => No
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 55 zero-length internal branches: `Node11, Node119, Node14, Node144, Node169, Node172, Node176, Node188, Node197, Node199, Node20, Node203, Node204, Node205, Node215, Node216, Node240, Node245, Node246, Node247, Node248, Node254, Node255, Node257, Node26, Node260, Node263, Node273, Node28, Node29, Node292, Node308, Node309, Node31, Node32, Node325, Node330, Node344, Node352, Node360, Node369, Node370, Node371, Node372, Node374, Node384, Node385, Node386, Node387, Node401, Node426, Node432, Node45, Node452, Node504`
+* Log(L) = -37978.32, AIC-c = 77003.90 (523 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  5.102
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -34686.01, AIC-c = 70327.14 (476 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  5.389
+* non-synonymous/synonymous rate ratio for *Reference* =   0.1167
+* non-synonymous/synonymous rate ratio for *Test* =   0.0767
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -34466.55, AIC-c = 69888.23 (476 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  5.373
+* non-synonymous/synonymous rate ratio for *Reference* =   0.1026
+* non-synonymous/synonymous rate ratio for *Test* =   0.0662
+
+### Fitting the alternative model to test K != 1
+* Log(L) = -34329.86, AIC-c = 69622.89 (480 estimated parameters)
+* Relaxation/intensification parameter (K) =     1.21
+* The following rate distribution was inferred for **test** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.020     |   36.867    |                                   |
+|        Negative selection         |     0.033     |   60.909    |                                   |
+|      Diversifying selection       |     3.500     |    2.224    |                                   |
+
+* The following rate distribution was inferred for **reference** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.039     |   36.867    |                                   |
+|        Negative selection         |     0.059     |   60.909    |                                   |
+|      Diversifying selection       |     2.827     |    2.224    |                                   |
+
+
+### * Potential convergence issues due to flat likelihood surfaces; checking to see whether K > 1 or K < 1 is robustly inferred
+
+### * Attempt to fit an alternative direction of K
+* Log(L) = -34330.52, AIC-c = 69624.22 (480 estimated parameters)
+* Relaxation/intensification parameter (K) =     1.00
+* The following rate distribution was inferred for **test** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.039     |   37.012    |                                   |
+|        Negative selection         |     0.058     |   60.765    |                                   |
+|      Diversifying selection       |     2.858     |    2.224    |                                   |
+
+* The following rate distribution was inferred for **reference** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.039     |   37.012    |                                   |
+|        Negative selection         |     0.058     |   60.765    |                                   |
+|      Diversifying selection       |     2.858     |    2.224    |                                   |
+
+> Restoring the original set of parameters (alternative optimization did not yield an improvement).
+
+### Fitting the null (K := 1) model
+* Log(L) = -34330.52, AIC-c = 69622.20 (479 estimated parameters)
+* The following rate distribution for test/reference branches was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.038     |   37.157    |                                   |
+|        Negative selection         |     0.059     |   60.618    |                                   |
+|      Diversifying selection       |     2.862     |    2.225    |                                   |
+
+----
+## Test for relaxation (or intensification) of selection [RELAX]
+Likelihood ratio test **p =   0.2493**.
+>No significant evidence for relaxation (or intensification) of selection among **test** branches _relative_ to the **reference** branches at P<=0.05
+----
+

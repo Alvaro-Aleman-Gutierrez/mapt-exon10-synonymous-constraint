@@ -1,0 +1,17 @@
+species	group	reason
+Apteryx rowi	Aves	covers less than 0.9 of E13
+Cariama cristata	Aves	covers less than 0.9 of E13
+Corvus brachyrhynchos	Aves	covers less than 0.9 of E9
+Eurypyga helias	Aves	covers less than 0.9 of E13
+Ficedula albicollis	Aves	exon blocks overlap in the species sequence
+Indicator indicator	Aves	covers less than 0.9 of E9
+Lepidothrix coronata	Aves	covers less than 0.9 of E13
+Manacus vitellinus	Aves	covers less than 0.9 of E13
+Mesitornis unicolor	Aves	covers less than 0.9 of E13
+Nestor notabilis	Aves	CDS does not translate to the protein
+Erithacus rubecula	Aves	protein identity 0.898 below mean minus 3 SD
+Oenanthe melanoleuca	Aves	protein identity 0.898 below mean minus 3 SD
+Phaethon lepturus	Aves	protein identity 0.902 below mean minus 3 SD
+Corvus kubaryi	Aves	insertion of 19 codons without a human homologue
+Neopelma chrysocephalum	Aves	insertion of 19 codons without a human homologue
+Sphaerodactylus townsendi	Lepidosauria	protein identity 0.886 below mean minus 3 SD

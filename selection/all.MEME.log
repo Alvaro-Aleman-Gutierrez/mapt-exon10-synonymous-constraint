@@ -1,0 +1,117 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. Version 3.0 adds a different format for
+ancestral state reconstruction, branch-site posterior storage, and
+site-level heterogeneity testing. Version 4 adds support for multiple
+hits and more than 2 rate classes on omega, as well as site-level
+imputation option. Version 4.1 fixes bugs with EBF computation for > 2
+more rates and MH reporting. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 4.1
+
+
+>code => Universal
+
+-------
+>[WARNING]
+'results/mapt_2N4R_final.codon.fna'
+contains 8 duplicate sequences. Identical sequences do not contribute
+any information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+results/selection/all.nwk
+results/selection/all.nwk
+
+>Loaded a multiple sequence alignment with **259** sequences, **563** codons, and **1** partitions from `results/mapt_2N4R_final.codon.fna`
+
+>branches => All
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue => 0.1
+
+>[Advanced setting, will result in MUCH SLOWER run time] Perform parametric bootstrap resampling to derive site-level null LRT distributions up to this many replicates per site. Recommended use for small to medium (<30 sequences) datasets (permissible range = [0,1000], default value = 50, integer): 
+>resample => 0
+The number omega rate classes to include in the model [2 is the strongly recommended default] (permissible range = [2,4], default value = 2, integer): 
+>rates => 2
+
+>multiple-hits => None
+
+>impute-states => No
+
+>precision => standard
+
+
+### Branches to include in the MEME analysis
+Selected 515 branches to include in the MEME analysis: `Homo_sapiens, Mus_musculus, Mus_caroli, Node24, Mus_pahari, Node23, Grammomys_surdaster, Arvicanthis_niloticus, Node30, Apodemus_sylvaticus, Node29, Mastomys_coucha, Node28, Node22, Rattus_norvegicus, Micromys_minutus, Node35, Node21, Acomys_russatus, Acomys_minous, Node38, Node20, Meriones_unguiculatus, Psammomys_obesus, Node41, Node19, Mesocricetus_auratus, Phodopus_roborovskii, Node46, Microtus_ochrogaster, Microtus_oregoni, Node54, Microtus_pennsylvanicus, Node53, Alexandromys_fortis, Node52, Chionomys_nivalis, Node51, Arvicola_amphibius, Node50, Myodes_glareolus, Node49, Node45, Peromyscus_maniculatus_bairdii, Peromyscus_leucopus, Node64, Peromyscus_californicus_insignis, Peromyscus_eremicus, Node67, Node63, Onychomys_torridus, Node62, Node44, Node18, Nannospalax_galili, Node17, Jaculus_jaculus, Node16, Dipodomys_ordii, Dipodomys_merriami, Node76, Dipodomys_spectabilis, Node75, Perognathus_longimembris_pacificus, Node74, Castor_canadensis, Node73, Node15, Cavia_porcellus, Octodon_degus, Chinchilla_lanigera, Node85, Node83, Heterocephalus_glaber, Fukomys_damarensis, Node88, Node82, Node14, Ictidomys_tridecemlineatus, Urocitellus_parryii, Spermophilus_citellus, Node97, Node95, Marmota_marmota_marmota, Marmota_flaviventris, Node101, Marmota_monax, Node100, Node94, Callospermophilus_lateralis, Node93, Sciurus_carolinensis, Sciurus_vulgaris, Node106, Node92, Muscardinus_avellanarius, Node91, Node13, Oryctolagus_cuniculus, Lepus_europaeus, Node111, Ochotona_princeps, Ochotona_curzoniae, Node114, Node110, Node12, Bos_taurus, Bos_mutus, Bos_indicus_x_Bos_taurus, Node135, Bos_grunniens, Node134, Bos_javanicus, Node133, Node131, Bos_indicus, Node130, Bison_bison_bison, Node129, Bubalus_bubalis, Bubalus_kerabau, Node142, Node128, Capra_hircus, Budorcas_taxicolor, Capricornis_sumatraensis, Node149, Node147, Ovis_aries, Ovis_canadensis, Node152, Node146, Oryx_dammah, Node145, Node127, Odocoileus_virginianus, Cervus_canadensis, Cervus_elaphus, Node161, Dama_dama, Node160, Muntiacus_reevesi, Node159, Node157, Moschus_berezovskii, Node156, Node126, Giraffa_tippelskirchi, Node125, Orcinus_orca, Tursiops_truncatus, Stenella_coeruleoalba, Node179, Grampus_griseus, Node178, Lagenorhynchus_albirostris, Node177, Delphinus_delphis, Node176, Aethalodelphis_obliquidens, Pseudorca_crassidens, Node185, Node175, Node173, Leucopleurus_acutus, Node172, Lipotes_vexillifer, Delphinapterus_leucas, Monodon_monoceros, Node193, Node191, Neophocaena_asiaeorientalis_asiaeorientalis, Phocoena_sinus, Phocoena_phocoena, Node198, Node196, Node190, Mesoplodon_densirostris, Mesoplodon_bidens, Node203, Mesoplodon_mirus, Node202, Hyperoodon_ampullatus, Node201, Node189, Node171, Kogia_breviceps, Node170, Balaenoptera_acutorostrata, Balaenoptera_musculus, Balaenoptera_ricei, Node215, Balaenoptera_physalus, Node214, Node212, Balaenoptera_borealis, Node211, Eschrichtius_robustus, Node210, Eubalaena_glacialis, Node209, Node169, Hippopotamus_amphibius_kiboko, Node168, Node124, Camelus_ferus, Camelus_bactrianus, Node225, Camelus_dromedarius, Node224, Vicugna_pacos, Node223, Node123, Sus_scrofa, Phacochoerus_africanus, Node230, Node122, Manis_javanica, Manis_pentadactyla, Node233, Node121, Canis_lupus_familiaris, Canis_aureus, Node242, Canis_lupus_baileyi, Node241, Canis_lupus_dingo, Node240, Vulpes_vulpes, Vulpes_lagopus, Node248, Nyctereutes_procyonoides, Node247, Node239, Odobenus_rosmarus_divergens, Callorhinus_ursinus, Eumetopias_jubatus, Node258, Zalophus_californianus, Node257, Node255, Leptonychotes_weddellii, Mirounga_leonina, Mirounga_angustirostris, Node266, Node264, Neomonachus_schauinslandi, Node263, Phoca_vitulina, Halichoerus_grypus, Node270, Node262, Node254, Mustela_putorius_furo, Mustela_nivalis, Node280, Mustela_nigripes, Node279, Mustela_lutreola, Node278, Mustela_erminea, Node277, Neogale_vison, Node276, Martes_martes, Node275, Lontra_canadensis, Lutra_lutra, Node288, Node274, Meles_meles, Node273, Node253, Ursus_arctos, Ursus_maritimus, Node293, Ursus_americanus, Node292, Node252, Node238, Felis_catus, Acinonyx_jubatus, Lynx_canadensis, Node307, Herpailurus_yagouaroundi, Node306, Leopardus_geoffroyi, Node305, Prionailurus_viverrinus, Node304, Lynx_rufus, Node303, Prionailurus_bengalensis, Node302, Puma_concolor, Node301, Node299, Panthera_tigris, Panthera_uncia, Node320, Panthera_leo, Node319, Neofelis_nebulosa, Node318, Panthera_onca, Node317, Panthera_pardus, Node316, Node298, Hyaena_hyaena, Crocuta_crocuta, Node327, Node297, Node237, Equus_caballus, Equus_przewalskii, Equus_quagga, Node334, Equus_asinus, Node333, Node331, Ceratotherium_simum_simum, Diceros_bicornis_minor, Node338, Node330, Node236, Node120, Sorex_araneus, Sorex_fumeus, Node343, Suncus_etruscus, Node342, Condylura_cristata, Talpa_occidentalis, Talpa_europaea, Node349, Node347, Node341, Node119, Myotis_brandtii, Myotis_myotis, Myotis_daubentonii, Myotis_nattereri, Node365, Node363, Myotis_yumanensis, Node362, Node360, Myotis_lucifugus, Node359, Eptesicus_fuscus, Cnephaeus_nilssonii, Node370, Node358, Pipistrellus_kuhlii, Pipistrellus_hanaki, Node373, Node357, Plecotus_auritus, Node356, Miniopterus_natalensis, Miniopterus_schreibersii, Node377, Node355, Molossus_molossus, Node354, Desmodus_rotundus, Phyllostomus_discolor, Phyllostomus_hastatus, Node386, Sturnira_hondurensis, Artibeus_jamaicensis, Node389, Node385, Node383, Pteronotus_mesoamericanus, Node382, Saccopteryx_bilineata, Saccopteryx_leptura, Node393, Node381, Node353, Pteropus_alecto, Pteropus_vampyrus, Pteropus_medius, Node400, Node398, Rousettus_aegyptiacus, Node397, Hipposideros_armiger, Rhinolophus_sinicus, Rhinolophus_ferrumequinum, Node407, Rhinolophus_hipposideros, Node406, Node404, Node396, Node352, Node118, Monodelphis_domestica, Gracilinanus_agilis, Node415, Sarcophilus_harrisii, Antechinus_flavipes, Node421, Sminthopsis_crassicaudata, Node420, Phascolarctos_cinereus, Vombatus_ursinus, Node428, Notamacropus_eugenii, Node427, Trichosurus_vulpecula, Node426, Petaurus_breviceps_papuanus, Node425, Node419, Dromiciops_gliroides, Node418, Node414, Ornithorhynchus_anatinus, Tachyglossus_aculeatus, Node435, Node413, Dasypus_novemcinctus, Choloepus_didactylus, Tamandua_tetradactyla, Node440, Node438, Node412, Loxodonta_africana, Elephas_maximus_indicus, Node446, Trichechus_manatus_latirostris, Node445, Orycteropus_afer_afer, Node444, Echinops_telfairi, Tenrec_ecaudatus, Node453, Chrysochloris_asiatica, Node452, Elephantulus_edwardii, Node451, Node443, Node411, Node117, Node11, Tupaia_belangeri_chinensis, Node10, Cynocephalus_volans, Node9, Otolemur_garnettii, Nycticebus_coucang, Node461, Propithecus_coquereli, Lemur_catta, Eulemur_rufifrons, Node467, Node465, Microcebus_murinus, Node464, Node460, Node8, Callithrix_jacchus, Saimiri_boliviensis, Node473, Cebus_imitator, Sapajus_apella, Node476, Node472, Aotus_nancymaae, Node471, Node7, Macaca_mulatta, Macaca_nemestrina, Node488, Chlorocebus_sabaeus, Node487, Macaca_thibetana_thibetana, Node486, Macaca_fascicularis, Node485, Mandrillus_leucophaeus, Node484, Cercocebus_atys, Node483, Papio_anubis, Node482, Theropithecus_gelada, Node481, Rhinopithecus_roxellana, Rhinopithecus_bieti, Node500, Trachypithecus_francoisi, Node499, Piliocolobus_tephrosceles, Node498, Node480, Node6, Nomascus_leucogenys, Hylobates_moloch, Symphalangus_syndactylus, Node507, Node505, Node5, Pongo_abelii, Pongo_pygmaeus, Node510, Node4, Gorilla_gorilla_gorilla, Node3, Pan_troglodytes, Node2, Pan_paniscus`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 53 zero-length internal branches: `Node101, Node121, Node130, Node131, Node133, Node135, Node147, Node175, Node177, Node178, Node179, Node185, Node189, Node191, Node2, Node202, Node203, Node211, Node212, Node214, Node225, Node241, Node242, Node258, Node274, Node280, Node293, Node301, Node302, Node303, Node304, Node305, Node307, Node317, Node318, Node319, Node333, Node334, Node360, Node365, Node407, Node472, Node482, Node484, Node486, Node487, Node488, Node5, Node500, Node507, Node54, Node76, Node97`
+* Log(L) = -37520.08, AIC-c = 76087.41 (523 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  4.998
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -34378.06, AIC-c = 69713.27 (477 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  5.267
+* non-synonymous/synonymous rate ratio for *test* =   0.1198
+
+>full-model => Yes
+Only analyze sites whose 1-based indices match the following list (null to skip) : 
+>limit-to-sites => null
+For sites whose 1-based indices match the following list, write out likelihood function snapshots (null string to skip) : 
+>save-lf-for-sites => null
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -34167.52
+* Log(L) = -34167.52, AIC-c = 69292.17 (477 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  5.255
+* non-synonymous/synonymous rate ratio for *test* =   0.1057
+
+### For partition 1 these sites are significant at p <=0.1
+
+|   Codon    | Partition  |   alpha    |non-syn rate (beta) distribution, rates : weights|    LRT     |Episodic selection detected?| # branches |         List of most common codon substitutions at this site          |
+|:----------:|:----------:|:----------:|:-----------------------------------------------:|:----------:|:--------------------------:|:----------:|:---------------------------------------------------------------------:|
+|     29     |     1      |    0.000   |              0.00/7.32 : 0.68/0.32              |    4.106   |      Yes, p =  0.0599      |     3      |                 [2]gGg>gAg|[1]Aag>Cag,GGg>AAg,Ggg>Agg                 |
+|     43     |     1      |   11.844   |             0.00/153.19 : 0.98/0.02             |    3.806   |      Yes, p =  0.0700      |     2      |                     [9]aaA>aaG|[1]aAa>aGa,AAA>TCT                     |
+|     75     |     1      |    1.446   |              0.00/4.30 : 0.01/0.99              |    3.528   |      Yes, p =  0.0809      |     9      |[8]gaT>gaG|[2]Gat>Aat,gaT>gaA,gAt>gGt|[1]gaG>gaT,Gat>Cat,gaT>gaC,gAt...|
+|     82     |     1      |    1.829   |             0.00/29.15 : 0.94/0.06              |    5.160   |      Yes, p =  0.0347      |     5      |     [2]gGc>gTc|[1]GGc>ACc,GgC>AgA,Ggc>Agc,ggC>ggG,ggC>ggT,ggG>ggA     |
+|    123     |     1      |    1.165   |             0.48/160.88 : 0.97/0.03             |   11.903   |      Yes, p =  0.0011      |     2      |[2]ccC>ccT|[1]CAc>TGc,cCc>cAc,cCC>cAG,cCc>cTc,Ccc>Gcc,CCc>GGc,Ccc>Tc...|
+|    124     |     1      |    1.070   |              0.00/4.92 : 0.01/0.99              |    3.260   |      Yes, p =  0.0932      |     11     |          [8]cAc>cCc|[6]cAc>cGc|[2]Cac>Gac|[1]caC>caT,cCc>cAc          |
+|    161     |     1      |    5.605   |            0.00/43880.21 : 1.00/0.00            |    7.986   |      Yes, p =  0.0082      |     1      |           [4]acC>acG|[3]acC>acT|[1]acA>acG,acC>acA,aCC>aTG            |
+|    166     |     1      |    2.620   |            0.00/1889.05 : 1.00/0.00             |    3.939   |      Yes, p =  0.0653      |     1      |                         [2]gaC>gaT|[1]gAc>gGc                         |
+|    176     |     1      |    1.304   |            0.00/1442.17 : 1.00/0.00             |    8.432   |      Yes, p =  0.0065      |     1      |                         [4]gcT>gcC|[1]gCT>gAG                         |
+|    239     |     1      |    4.328   |             1.64/217.40 : 0.95/0.05             |   23.766   |      Yes, p =  0.0000      |     4      |[4]TCc>AGc|[3]Gcc>Acc,Tcc>Acc|[2]agC>agT,Gcc>Tcc,Tcc>Gcc|[1]aCc>aGc,...|
+|    312     |     1      |    3.183   |             0.00/100.79 : 0.99/0.01             |    5.205   |      Yes, p =  0.0339      |     1      |                     [4]gtG>gtA|[1]GTG>CGC,gtG>gtC                     |
+|    331     |     1      |    6.299   |             0.00/61.04 : 0.96/0.04              |    3.440   |      Yes, p =  0.0847      |     5      |[3]tcA>tcC,tcA>tcG|[2]Tca>Gca,Tcc>Gcc,tcC>tcA|[1]gcC>gcT,TCA>GGC,tcC...|
+|    333     |     1      |    2.372   |             0.00/131.33 : 1.00/0.00             |    7.365   |      Yes, p =  0.0112      |     1      |                         [2]aaG>aaA|[1]AAG>CTC                         |
+|    380     |     1      |    2.149   |             0.00/71.62 : 0.99/0.01              |    4.010   |      Yes, p =  0.0630      |     1      |                         [3]aaG>aaA|[1]AAG>CCT                         |
+|    395     |     1      |    0.000   |              0.00/8.73 : 0.97/0.03              |    5.316   |      Yes, p =  0.0320      |     1      |                              [1]AAg>GGg                               |
+|    426     |     1      |    0.825   |             0.00/986.67 : 1.00/0.00             |   14.072   |      Yes, p =  0.0004      |     1      |                         [2]agT>agC|[1]AGt>GCt                         |
+
+### ** Found _16_ sites under episodic diversifying positive selection at p <= 0.1**

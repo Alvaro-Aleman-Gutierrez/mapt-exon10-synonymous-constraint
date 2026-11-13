@@ -1,0 +1,15 @@
+exon	set	spliced	species	aa	syn
+E6	alternative	alternative	76	0.818	0.845
+E10	core	alternative	91	1.0	0.841
+E8	alternative	alternative	58	0.69	0.791
+E5	core	constitutive	85	0.76	0.776
+E11	core	constitutive	91	1.0	0.772
+E3	core	alternative	85	0.87	0.743
+E4	core	constitutive	89	0.891	0.731
+E4aL	alternative	alternative	46	0.564	0.727
+E2	core	alternative	91	0.901	0.722
+E4a	alternative	alternative	82	0.633	0.722
+E12	core	constitutive	91	0.987	0.69
+E9	core	constitutive	91	0.95	0.686
+E13	core	constitutive	91	0.99	0.669
+E7	core	constitutive	91	0.866	0.661

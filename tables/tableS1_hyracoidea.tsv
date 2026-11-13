@@ -1,0 +1,3 @@
+Species	Assembly	Sequence	Span (bp)	Model length (aa)	Identity to elephant	Identity to manatee	Identity to human
+Procavia capensis	GCA_004026925.3	PVIO03000020.1	35666	733	0.898	0.894	0.816
+Heterohyrax brucei	GCA_028571685.1	CM053149.1	37387	727	0.9	0.897	0.818

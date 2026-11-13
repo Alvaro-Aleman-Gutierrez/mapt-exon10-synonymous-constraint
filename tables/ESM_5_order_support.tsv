@@ -1,0 +1,27 @@
+# Synonymous constraint on MAPT exon 10 exceeds what its encoded protein requires and is shared across amniotes
+# Alvaro Alemán-Gutiérrez, Instituto Tecnológico de Costa Rica, aaleman@itcr.ac.cr
+# Online Resource 5
+order	n	mono	ufboot	shalrt	intruders
+Monotremata	2	True			[]
+Didelphimorphia	2	True	99.5	100.0	[]
+Microbiotheria	1	True			[]
+Dasyuromorphia	3	True	97.1	95.0	[]
+Diprotodontia	5	False	75.7	77.0	['Antechinus_flavipes', 'Dromiciops_gliroides', 'Sarcophilus_harrisii', 'Sminthopsis_crassicaudata']
+Afrosoricida	3	True	81.2	79.0	[]
+Macroscelidea	1	True			[]
+Tubulidentata	1	True			[]
+Proboscidea	2	True	99.2	100.0	[]
+Sirenia	1	True			[]
+Cingulata	1	True			[]
+Pilosa	2	True	25.4	58.0	[]
+Lagomorpha	4	True	97.4	99.0	[]
+Rodentia	49	False	85.9	43.0	['Choloepus_didactylus', 'Dasypus_novemcinctus', 'Lepus_europaeus', 'Ochotona_curzoniae', 'Ochotona_princeps', 'Oryctolagus_cuniculus', 'Tamandua_tetradactyla']
+Scandentia	1	True			[]
+Dermoptera	1	True			[]
+Primates	33	True	44.8	54.0	[]
+Eulipotyphla	6	True	89.3	87.0	[]
+Chiroptera	30	True	84.7	88.0	[]
+Perissodactyla	6	True	99.2	100.0	[]
+Pholidota	2	True	99.6	100.0	[]
+Carnivora	47	True	79.8	53.0	[]
+Artiodactyla	56	True	96.1	97.0	[]

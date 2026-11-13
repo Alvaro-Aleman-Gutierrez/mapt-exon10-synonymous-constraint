@@ -1,0 +1,4 @@
+Test clade	Species	k	LRT	p	k unconstrained	p unconstrained
+Primates	33	1.008	0.01	0.9386795402258652	1.088	0.379
+Catarrhini	22	1.163	0.63	0.4257126734284148	1.206	0.249
+Hominoidea	9	1.008	0.0	0.9798230948230334	1.210	0.601

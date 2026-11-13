@@ -1,0 +1,46 @@
+quantity	value
+Mammalia: media del clado en el cuadrante	sí (Δaa -0.004, Δnt +0.030); especies 21/255, descriptivo
+Aves: media del clado en el cuadrante	sí (Δaa -0.064, Δnt +0.088); especies 153/153, descriptivo
+Crocodylia: media del clado en el cuadrante	sí (Δaa -0.126, Δnt +0.050); especies 4/4, descriptivo
+Testudines: media del clado en el cuadrante	sí (Δaa -0.028, Δnt +0.090); especies 15/17, descriptivo
+Lepidosauria: media del clado en el cuadrante	sí (Δaa -0.112, Δnt +0.083); especies 36/38, descriptivo
+Caudata: media del clado en el cuadrante	no (Δaa -0.143, Δnt -0.023); especies 1/5, descriptivo
+Anura: media del clado en el cuadrante	no (Δaa +0.041, Δnt +0.028); especies 1/10, descriptivo
+amniotas no mamíferos, conteo descriptivo por especie	208/212
+clados de amniotas con la media en el cuadrante	5 de 5, binomial contra 0,25 p = 0.0010
+Mammalia: E10 observada contra esperada bajo saturación	0.938 contra 0.411
+Mammalia: otras repeticiones, observada contra esperada	0.794 contra 0.411
+Mammalia: exones con la observada por debajo de la esperada	0/5
+Aves: E10 observada contra esperada bajo saturación	0.805 contra 0.423
+Aves: otras repeticiones, observada contra esperada	0.574 contra 0.387
+Aves: exones con la observada por debajo de la esperada	0/5
+Crocodylia: E10 observada contra esperada bajo saturación	0.808 contra 0.391
+Crocodylia: otras repeticiones, observada contra esperada	0.541 contra 0.372
+Crocodylia: exones con la observada por debajo de la esperada	0/5
+Testudines: E10 observada contra esperada bajo saturación	0.865 contra 0.388
+Testudines: otras repeticiones, observada contra esperada	0.559 contra 0.364
+Testudines: exones con la observada por debajo de la esperada	0/5
+Lepidosauria: E10 observada contra esperada bajo saturación	0.791 contra 0.370
+Lepidosauria: otras repeticiones, observada contra esperada	0.472 contra 0.355
+Lepidosauria: exones con la observada por debajo de la esperada	0/5
+Caudata: E10 observada contra esperada bajo saturación	0.544 contra 0.382
+Caudata: otras repeticiones, observada contra esperada	0.463 contra 0.328
+Caudata: exones con la observada por debajo de la esperada	0/5
+Anura: E10 observada contra esperada bajo saturación	0.459 contra 0.387
+Anura: otras repeticiones, observada contra esperada	0.480 contra 0.347
+Anura: exones con la observada por debajo de la esperada	0/5
+E10 contra E11, pareado en Rodentia y Artiodactyla	n = 91, medias 0.841 y 0.772, Wilcoxon p = 8.5e-16
+E6 contra E10, pareado	n = 76, diferencia +0.003, Wilcoxon p = 2.6e-07
+E6 contra E1, pareado por especie	n = 124, medias 0.861 y 0.796, Wilcoxon p = 8.4e-16
+E6 contra E5, pareado por especie	n = 211, medias 0.857 y 0.814, Wilcoxon p = 2.3e-14
+órdenes monofiléticos, excluido el grupo externo	20 de 22
+sitios informativos en el alineamiento completo	196
+sitios informativos solo entre los 33 primates	39
+mediana de dS de FEL en E9	1.1
+mediana de dS de FEL en E10	1.62e-05
+mediana de dS de FEL en E11	0.827
+mediana de dS de FEL en E12	0.913
+mediana de dS de FEL en E13	0.817
+razón entre la mediana de las otras cuatro y la de E10	57,833, 4.76 órdenes
+Mann-Whitney de dos colas, E10 contra E9, E11, E12 y E13	p = 1.7e-13
+codones invariantes en posiciones de splicing / de proteína	3 de 5 / 0 de 2, Fisher p = 0.43

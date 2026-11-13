@@ -1,0 +1,6 @@
+exon	codons	observed_invariant	matched_codons	expected_mean	expected_p95	p_empirical
+E10	31	14	31	1.0	3	<0.0001
+E9	88	0	87	2.92	5	1.0
+E11	28	2	28	3.34	6	0.8947
+E12	37	1	37	4.39	7	0.9962
+E13	71	2	71	6.32	9	0.9973

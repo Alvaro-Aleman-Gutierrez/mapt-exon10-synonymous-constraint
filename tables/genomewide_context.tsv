@@ -1,0 +1,7 @@
+comparación	exones	cov15 >= exón	cov30 >= exón	lambda <= exón	exon
+todos los exones	167588	2657	3799	3162	E10
+largo parecido (75 a 115 nt)	45085	728	1194	909	E10
+largo parecido y alternativos	11010	385	555	484	E10
+todos los exones	167588	2594	3423	1788	E6
+largo parecido (150 a 250 nt)	42836	285	340	262	E6
+largo parecido y alternativos	10640	169	182	170	E6

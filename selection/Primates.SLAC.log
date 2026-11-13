@@ -1,0 +1,175 @@
+
+Analysis Description
+--------------------
+SLAC (Single Likelihood Ancestor Counting) uses a maximum likelihood
+ancestral state reconstruction and minimum path substitution counting to
+estimate site - level dS and dN, and applies a simple binomial - based
+test to test if dS differs drom dN. The estimates aggregate information
+over all branches, so the signal is derived from pervasive
+diversification or conservation. A subset of branches can be selected
+for testing as well. Multiple partitions within a NEXUS file are also
+supported for recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Not So Different After All: A Comparison of Methods for Detecting Amino
+Acid Sites Under Selection (2005). _Mol Biol Evol_ 22 (5): 1208-1222
+
+- __Written by__: Sergei L Kosakovsky Pond and Simon DW Frost
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.00
+
+
+>code => Universal
+
+-------
+>[WARNING]
+'results/selection/Primates.codon.fna'
+contains 1 duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+results/selection/Primates.nwk
+results/selection/Primates.nwk
+
+>Loaded a multiple sequence alignment with **33** sequences, **563** codons, and **1** partitions from `results/selection/Primates.codon.fna`
+
+>branches => All
+
+>Select the number of samples used to assess ancestral reconstruction uncertainty [select 0 to skip] (permissible range = [0,100000], default value = 100, integer): 
+>samples => 100
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue => 0.1
+
+
+### Branches to include in the SLAC analysis
+Selected 63 branches to include in SLAC calculations: `Homo_sapiens, Otolemur_garnettii, Nycticebus_coucang, Node9, Propithecus_coquereli, Lemur_catta, Eulemur_rufifrons, Node15, Node13, Microcebus_murinus, Node12, Node8, Callithrix_jacchus, Saimiri_boliviensis, Node21, Cebus_imitator, Sapajus_apella, Node24, Node20, Aotus_nancymaae, Node19, Node7, Macaca_mulatta, Macaca_nemestrina, Node36, Chlorocebus_sabaeus, Node35, Macaca_thibetana_thibetana, Node34, Macaca_fascicularis, Node33, Mandrillus_leucophaeus, Node32, Cercocebus_atys, Node31, Papio_anubis, Node30, Theropithecus_gelada, Node29, Rhinopithecus_roxellana, Rhinopithecus_bieti, Node48, Trachypithecus_francoisi, Node47, Piliocolobus_tephrosceles, Node46, Node28, Node6, Nomascus_leucogenys, Hylobates_moloch, Symphalangus_syndactylus, Node55, Node53, Node5, Pongo_abelii, Pongo_pygmaeus, Node58, Node4, Gorilla_gorilla_gorilla, Node3, Pan_troglodytes, Node2, Pan_paniscus`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+
+### Deleted 10 zero-length internal branches: `Node2, Node20, Node30, Node32, Node34, Node35, Node36, Node48, Node5, Node55`
+* Log(L) = -4439.34, AIC-c =  9020.86 (71 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.332
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -4174.95, AIC-c =  8486.42 (68 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.340
+* non-synonymous/synonymous rate ratio for *test* =   0.1135
+
+### Performing joint maximum likelihood ancestral state reconstruction
+
+### For partition 1 these sites are significant at p <=0.1
+
+|     Codon      |   Partition    |       S        |       N        |       dS       |       dN       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+|       13       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|       23       |       1        |     4.000      |     0.000      |     5.035      |     0.000      |  Neg. p = 0.005   |
+|       51       |       1        |     2.000      |     0.000      |     3.121      |     0.000      |  Neg. p = 0.075   |
+|       73       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|       76       |       1        |     3.000      |     0.000      |     4.053      |     0.000      |  Neg. p = 0.015   |
+|       93       |       1        |     4.000      |     0.000      |     4.000      |     0.000      |  Neg. p = 0.012   |
+|      114       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      120       |       1        |     4.000      |     0.000      |     4.000      |     0.000      |  Neg. p = 0.012   |
+|      158       |       1        |     3.000      |     0.000      |     3.289      |     0.000      |  Neg. p = 0.028   |
+|      184       |       1        |     3.000      |     0.000      |     3.853      |     0.000      |  Neg. p = 0.017   |
+|      204       |       1        |     2.000      |     0.000      |     2.401      |     0.000      |  Neg. p = 0.077   |
+|      222       |       1        |     2.000      |     0.000      |     2.715      |     0.000      |  Neg. p = 0.060   |
+|      238       |       1        |     8.000      |     0.000      |     8.000      |     0.000      |  Neg. p = 0.000   |
+|      244       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      274       |       1        |     3.000      |     0.000      |     4.023      |     0.000      |  Neg. p = 0.015   |
+|      299       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      303       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      304       |       1        |     4.000      |     0.000      |     4.000      |     0.000      |  Neg. p = 0.012   |
+|      307       |       1        |     3.000      |     0.000      |     2.723      |     0.000      |  Neg. p = 0.054   |
+|      329       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      376       |       1        |     2.000      |     0.000      |     2.725      |     0.000      |  Neg. p = 0.060   |
+|      381       |       1        |     2.000      |     0.000      |     2.322      |     0.000      |  Neg. p = 0.082   |
+|      384       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      385       |       1        |     2.000      |     0.000      |     2.705      |     0.000      |  Neg. p = 0.064   |
+|      391       |       1        |     4.000      |     0.000      |     4.000      |     0.000      |  Neg. p = 0.012   |
+|      420       |       1        |     2.000      |     0.000      |     2.722      |     0.000      |  Neg. p = 0.060   |
+|      438       |       1        |     2.000      |     0.000      |     2.722      |     0.000      |  Neg. p = 0.063   |
+|      445       |       1        |     4.000      |     0.000      |     4.000      |     0.000      |  Neg. p = 0.017   |
+|      449       |       1        |     4.000      |     0.000      |     4.664      |     0.000      |  Neg. p = 0.007   |
+|      460       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      475       |       1        |     4.000      |     0.000      |     4.669      |     0.000      |  Neg. p = 0.007   |
+|      483       |       1        |     4.000      |     0.000      |     5.290      |     0.000      |  Neg. p = 0.004   |
+|      487       |       1        |     5.000      |     0.000      |     5.000      |     0.000      |  Neg. p = 0.004   |
+|      491       |       1        |     2.000      |     0.000      |     2.567      |     0.000      |  Neg. p = 0.071   |
+|      493       |       1        |     2.000      |     0.000      |     2.257      |     0.000      |  Neg. p = 0.087   |
+|      501       |       1        |     6.000      |     0.000      |     6.000      |     0.000      |  Neg. p = 0.001   |
+|      512       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      514       |       1        |     2.000      |     0.000      |     2.322      |     0.000      |  Neg. p = 0.082   |
+|      518       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.041   |
+|      519       |       1        |     4.000      |     0.000      |     4.000      |     0.000      |  Neg. p = 0.012   |
+|      532       |       1        |     3.000      |     0.000      |     3.910      |     0.000      |  Neg. p = 0.017   |
+|      536       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      539       |       1        |     2.000      |     0.000      |     2.325      |     0.000      |  Neg. p = 0.082   |
+|      549       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      551       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      552       |       1        |     2.000      |     0.000      |     2.671      |     0.000      |  Neg. p = 0.062   |
+|      553       |       1        |     2.000      |     0.000      |     2.712      |     0.000      |  Neg. p = 0.064   |
+
+### Ancestor sampling analysis
+
+>Generating 100 ancestral sequence samples to obtain confidence intervals
+
+Resampling results for partition 1
+
+|     Codon      |   Partition    |    S [median, IQR]    |    N [median, IQR]    |    dS [median, IQR]    |    dN [median, IQR]    |  p-value [median, IQR]  |
+|:--------------:|:--------------:|:---------------------:|:---------------------:|:----------------------:|:----------------------:|:-----------------------:|
+|       13       |       1        |   3.00 [3.00-3.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-3.00]    |    0.00 [0.00-0.00]    |    0.04 [0.04-0.04]     |
+|       23       |       1        |   4.00 [4.00-5.00]    |   0.00 [0.00-0.00]    |    5.03 [5.03-6.40]    |    0.00 [0.00-0.00]    |    0.00 [0.00-0.00]     |
+|       51       |       1        |   2.00 [2.00-4.00]    |   0.00 [0.00-0.00]    |    2.67 [2.67-5.20]    |    0.00 [0.00-0.00]    |    0.07 [0.01-0.07]     |
+|       73       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-4.00]    |    0.00 [0.00-0.00]    |    0.04 [0.01-0.04]     |
+|       76       |       1        |   3.00 [3.00-3.16]    |   0.00 [0.00-0.00]    |    4.05 [4.05-4.26]    |    0.00 [0.00-0.00]    |    0.02 [0.01-0.02]     |
+|       93       |       1        |   4.00 [4.00-5.16]    |   0.00 [0.00-0.00]    |    4.00 [4.00-5.16]    |    0.00 [0.00-0.00]    |    0.01 [0.00-0.01]     |
+|      114       |       1        |   3.00 [3.00-4.16]    |   0.00 [0.00-0.00]    |    3.00 [3.00-4.16]    |    0.00 [0.00-0.00]    |    0.04 [0.01-0.04]     |
+|      120       |       1        |   4.00 [4.00-5.00]    |   0.00 [0.00-0.00]    |    4.00 [4.00-5.00]    |    0.00 [0.00-0.00]    |    0.01 [0.00-0.01]     |
+|      158       |       1        |   3.00 [3.00-3.00]    |   0.00 [0.00-0.00]    |    3.29 [3.29-3.29]    |    0.00 [0.00-0.00]    |    0.03 [0.03-0.03]     |
+|      184       |       1        |   3.00 [3.00-5.00]    |   0.00 [0.00-0.00]    |    3.85 [3.85-6.46]    |    0.00 [0.00-0.00]    |    0.02 [0.00-0.02]     |
+|      204       |       1        |   2.00 [2.00-2.00]    |   0.00 [0.00-0.00]    |    2.40 [2.40-2.40]    |    0.00 [0.00-0.00]    |    0.08 [0.08-0.08]     |
+|      222       |       1        |   2.00 [2.00-2.00]    |   0.00 [0.00-0.00]    |    2.72 [2.72-2.72]    |    0.00 [0.00-0.00]    |    0.06 [0.06-0.06]     |
+|      238       |       1        |   8.00 [8.00-9.00]    |   0.00 [0.00-0.00]    |    8.00 [8.00-9.00]    |    0.00 [0.00-0.00]    |    0.00 [0.00-0.00]     |
+|      244       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-4.00]    |    0.00 [0.00-0.00]    |    0.04 [0.01-0.04]     |
+|      274       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    4.02 [4.02-5.34]    |    0.00 [0.00-0.00]    |    0.02 [0.00-0.02]     |
+|      299       |       1        |   3.00 [3.00-3.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-3.00]    |    0.00 [0.00-0.00]    |    0.04 [0.04-0.04]     |
+|      303       |       1        |   3.00 [3.00-3.16]    |   0.00 [0.00-0.00]    |    3.00 [3.00-3.16]    |    0.00 [0.00-0.00]    |    0.04 [0.03-0.04]     |
+|      304       |       1        |   4.00 [4.00-5.00]    |   0.00 [0.00-0.00]    |    4.00 [4.00-5.00]    |    0.00 [0.00-0.00]    |    0.01 [0.00-0.01]     |
+|      307       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    2.72 [2.72-3.63]    |    0.00 [0.00-0.00]    |    0.05 [0.02-0.05]     |
+|      329       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-4.00]    |    0.00 [0.00-0.00]    |    0.04 [0.01-0.04]     |
+|      376       |       1        |   2.00 [2.00-2.00]    |   0.00 [0.00-0.00]    |    2.73 [2.73-2.73]    |    0.00 [0.00-0.00]    |    0.06 [0.06-0.06]     |
+|      381       |       1        |   2.00 [2.00-3.16]    |   0.00 [0.00-0.00]    |    2.32 [2.32-3.67]    |    0.00 [0.00-0.00]    |    0.08 [0.02-0.08]     |
+|      384       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-4.00]    |    0.00 [0.00-0.00]    |    0.04 [0.01-0.04]     |
+|      385       |       1        |   2.00 [2.00-3.00]    |   0.00 [0.00-0.00]    |    2.71 [2.71-4.03]    |    0.00 [0.00-0.00]    |    0.06 [0.02-0.06]     |
+|      391       |       1        |   4.00 [4.00-4.16]    |   0.00 [0.00-0.00]    |    4.00 [4.00-4.16]    |    0.00 [0.00-0.00]    |    0.01 [0.01-0.01]     |
+|      420       |       1        |   2.00 [2.00-2.00]    |   0.00 [0.00-0.00]    |    2.72 [2.72-2.72]    |    0.00 [0.00-0.00]    |    0.06 [0.06-0.06]     |
+|      438       |       1        |   2.00 [2.00-3.00]    |   0.00 [0.00-0.00]    |    2.72 [2.72-4.06]    |    0.00 [0.00-0.00]    |    0.06 [0.02-0.06]     |
+|      445       |       1        |   4.00 [4.00-5.00]    |   0.00 [0.00-0.00]    |    4.00 [4.00-5.00]    |    0.00 [0.00-0.00]    |    0.02 [0.01-0.02]     |
+|      449       |       1        |   4.00 [4.00-6.00]    |   0.00 [0.00-0.00]    |    4.66 [4.66-6.94]    |    0.00 [0.00-0.00]    |    0.01 [0.00-0.01]     |
+|      460       |       1        |   3.00 [3.00-3.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-3.00]    |    0.00 [0.00-0.00]    |    0.04 [0.04-0.04]     |
+|      475       |       1        |   4.00 [4.00-6.16]    |   0.00 [0.00-0.00]    |    4.67 [4.67-7.10]    |    0.00 [0.00-0.00]    |    0.01 [0.00-0.01]     |
+|      483       |       1        |   4.00 [4.00-5.00]    |   0.00 [0.00-0.00]    |    5.29 [5.29-6.57]    |    0.00 [0.00-0.00]    |    0.00 [0.00-0.00]     |
+|      487       |       1        |   5.00 [5.00-6.00]    |   0.00 [0.00-0.00]    |    5.00 [5.00-6.00]    |    0.00 [0.00-0.00]    |    0.00 [0.00-0.00]     |
+|      491       |       1        |   2.00 [2.00-2.00]    |   0.00 [0.00-0.00]    |    2.57 [2.57-2.57]    |    0.00 [0.00-0.00]    |    0.07 [0.07-0.07]     |
+|      493       |       1        |   2.00 [2.00-4.00]    |   0.00 [0.00-0.00]    |    2.26 [2.26-4.43]    |    0.00 [0.00-0.00]    |    0.09 [0.01-0.09]     |
+|      501       |       1        |   6.00 [6.00-7.16]    |   0.00 [0.00-0.00]    |    6.00 [6.00-7.16]    |    0.00 [0.00-0.00]    |    0.00 [0.00-0.00]     |
+|      512       |       1        |   3.00 [3.00-3.16]    |   0.00 [0.00-0.00]    |    3.00 [3.00-3.16]    |    0.00 [0.00-0.00]    |    0.04 [0.03-0.04]     |
+|      514       |       1        |   2.00 [2.00-3.00]    |   0.00 [0.00-0.00]    |    2.32 [2.32-3.50]    |    0.00 [0.00-0.00]    |    0.08 [0.02-0.08]     |
+|      518       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-4.00]    |    0.00 [0.00-0.00]    |    0.04 [0.01-0.04]     |
+|      519       |       1        |   4.00 [4.00-5.00]    |   0.00 [0.00-0.00]    |    4.00 [4.00-5.00]    |    0.00 [0.00-0.00]    |    0.01 [0.00-0.01]     |
+|      532       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    3.91 [3.91-5.17]    |    0.00 [0.00-0.00]    |    0.02 [0.00-0.02]     |
+|      536       |       1        |   3.00 [3.00-3.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-3.00]    |    0.00 [0.00-0.00]    |    0.04 [0.04-0.04]     |
+|      539       |       1        |   2.00 [2.00-3.16]    |   0.00 [0.00-0.00]    |    2.32 [2.32-3.64]    |    0.00 [0.00-0.00]    |    0.08 [0.02-0.08]     |
+|      549       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-4.00]    |    0.00 [0.00-0.00]    |    0.04 [0.01-0.04]     |
+|      551       |       1        |   3.00 [3.00-3.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-3.00]    |    0.00 [0.00-0.00]    |    0.04 [0.04-0.04]     |
+|      552       |       1        |   2.00 [2.00-3.00]    |   0.00 [0.00-0.00]    |    2.67 [2.67-3.96]    |    0.00 [0.00-0.00]    |    0.06 [0.02-0.06]     |
+|      553       |       1        |   2.00 [2.00-3.00]    |   0.00 [0.00-0.00]    |    2.71 [2.71-4.04]    |    0.00 [0.00-0.00]    |    0.06 [0.02-0.06]     |

@@ -1,0 +1,81 @@
+
+Analysis Description
+--------------------
+SLAC (Single Likelihood Ancestor Counting) uses a maximum likelihood
+ancestral state reconstruction and minimum path substitution counting to
+estimate site - level dS and dN, and applies a simple binomial - based
+test to test if dS differs drom dN. The estimates aggregate information
+over all branches, so the signal is derived from pervasive
+diversification or conservation. A subset of branches can be selected
+for testing as well. Multiple partitions within a NEXUS file are also
+supported for recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Not So Different After All: A Comparison of Methods for Detecting Amino
+Acid Sites Under Selection (2005). _Mol Biol Evol_ 22 (5): 1208-1222
+
+- __Written by__: Sergei L Kosakovsky Pond and Simon DW Frost
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.00
+
+
+>code => Universal
+results/selection/Diprotodontia.nwk
+results/selection/Diprotodontia.nwk
+
+>Loaded a multiple sequence alignment with **5** sequences, **563** codons, and **1** partitions from `results/selection/Diprotodontia.codon.fna`
+
+>branches => All
+
+>Select the number of samples used to assess ancestral reconstruction uncertainty [select 0 to skip] (permissible range = [0,100000], default value = 100, integer): 
+>samples => 100
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue => 0.1
+
+
+### Branches to include in the SLAC analysis
+Selected 7 branches to include in SLAC calculations: `Phascolarctos_cinereus, Vombatus_ursinus, Node3, Notamacropus_eugenii, Node2, Trichosurus_vulpecula, Petaurus_breviceps_papuanus`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths => Yes
+* Log(L) = -2728.32, AIC-c =  5486.70 (15 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.120
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -2605.94, AIC-c =  5256.24 (22 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.123
+* non-synonymous/synonymous rate ratio for *test* =   0.1190
+
+### Performing joint maximum likelihood ancestral state reconstruction
+
+### For partition 1 these sites are significant at p <=0.1
+
+|     Codon      |   Partition    |       S        |       N        |       dS       |       dN       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+|      222       |       1        |     2.000      |     0.000      |     2.777      |     0.000      |  Neg. p = 0.058   |
+|      483       |       1        |     2.000      |     0.000      |     2.680      |     0.000      |  Neg. p = 0.062   |
+|      510       |       1        |     2.000      |     0.000      |     2.777      |     0.000      |  Neg. p = 0.058   |
+|      536       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.037   |
+|      541       |       1        |     0.500      |     1.500      |     4.438      |     0.520      |  Neg. p = 0.074   |
+|      544       |       1        |     3.000      |     0.000      |     3.000      |     0.000      |  Neg. p = 0.048   |
+
+### Ancestor sampling analysis
+
+>Generating 100 ancestral sequence samples to obtain confidence intervals
+
+Resampling results for partition 1
+
+|     Codon      |   Partition    |    S [median, IQR]    |    N [median, IQR]    |    dS [median, IQR]    |    dN [median, IQR]    |  p-value [median, IQR]  |
+|:--------------:|:--------------:|:---------------------:|:---------------------:|:----------------------:|:----------------------:|:-----------------------:|
+|      222       |       1        |   2.00 [2.00-3.00]    |   0.00 [0.00-0.00]    |    2.83 [2.78-4.06]    |    0.00 [0.00-0.00]    |    0.06 [0.01-0.06]     |
+|      483       |       1        |   2.00 [2.00-3.00]    |   0.00 [0.00-0.00]    |    2.68 [2.68-4.29]    |    0.00 [0.00-0.00]    |    0.06 [0.01-0.06]     |
+|      510       |       1        |   2.00 [2.00-2.00]    |   0.00 [0.00-0.00]    |    2.78 [2.78-2.89]    |    0.00 [0.00-0.00]    |    0.06 [0.05-0.06]     |
+|      536       |       1        |   3.00 [3.00-3.16]    |   0.00 [0.00-0.00]    |    3.00 [3.00-3.16]    |    0.00 [0.00-0.00]    |    0.04 [0.03-0.04]     |
+|      541       |       1        |   0.50 [0.50-0.50]    |   1.50 [1.50-1.50]    |    4.44 [4.44-4.44]    |    0.52 [0.52-0.52]    |    0.07 [0.07-0.07]     |
+|      544       |       1        |   3.00 [3.00-4.00]    |   0.00 [0.00-0.00]    |    3.00 [3.00-4.00]    |    0.00 [0.00-0.00]    |    0.05 [0.02-0.05]     |

@@ -1,0 +1,8 @@
+Clade	Species	aa E10	aa E11	nt E10	nt E11	syn E10	syn other exons	Difference	syn E10 expected if free	Species with E10 higher	Unit	Units with E10 higher	Sign test p
+Mammalia	255	0.996	1.000	0.978	0.948	0.938	0.794	+0.143	0.411	255/255	order	21/21	4.8e-7
+Aves	153	0.900	0.964	0.908	0.820	0.805	0.574	+0.231	0.423	153/153	order	29/29	1.9e-9
+Crocodylia	4	0.839	0.964	0.892	0.842	0.808	0.541	+0.267	0.391	4/4	family	3/3	0.125
+Testudines	17	0.930	0.958	0.921	0.830	0.865	0.559	+0.306	0.388	17/17	family	8/8	3.9e-3
+Lepidosauria	38	0.786	0.899	0.840	0.758	0.791	0.472	+0.319	0.370	38/38	family	16/16	1.5e-5
+Caudata	5	0.735	0.879	0.729	0.752	0.544	0.463	+0.080	0.382	5/5	family	2/2	0.250
+Anura	10	0.781	0.739	0.714	0.686	0.459	0.480	-0.021	0.387	3/10	family	3/7	0.773
