@@ -79,7 +79,7 @@ print("\ncontroles E11 y E12 solamente")
 print(res2.to_string(index=False))
 
 # ---- comparaciones de exones alternativos y de E10 contra E11, por orden
-d6 = pd.read_csv("results/tables/ESM_6_alt_exon_divergence.tsv", sep="\t", comment="#")
+d6 = pd.read_csv("results/tables/ESM_9_alt_exon_divergence.tsv", sep="\t", comment="#")
 w6 = d6.pivot_table(index=["species", "order"], columns="exon", values="identity_to_human").reset_index()
 print("\nE6 contra exones cubiertos, por orden")
 for other in ("E1", "E5"):
@@ -90,7 +90,7 @@ for other in ("E1", "E5"):
     print(f"  E6 contra {other}: {pos} de {n} órdenes con E6 mayor, p = {p:.1e}, "
           f"diferencia media {s['mean'].mean():+.3f}")
 
-d7 = pd.read_csv("results/tables/ESM_7_exon_synonymous_identity.tsv", sep="\t", comment="#")
+d7 = pd.read_csv("results/tables/ESM_10_exon_synonymous_identity.tsv", sep="\t", comment="#")
 m = d7[d7.order.isin(["Rodentia", "Artiodactyla"])].pivot_table(
     index=["species", "order"], columns="exon", values="syn_identity").reset_index()
 print("\nE10 contra E11 en los dos órdenes igualados")

@@ -117,7 +117,7 @@ for e in ALT + CORE:
 
 df = pd.DataFrame(rows)
 from esm import write_esm
-write_esm(df, 7, "exon_synonymous_identity")
+write_esm(df, 10, "exon_synonymous_identity")
 
 summ = (df.groupby(["set", "exon"])
           .agg(species=("species", "nunique"), aa=("aa_identity", "mean"),

@@ -166,7 +166,7 @@ a.assign(exon="E10").to_csv(f"{OUT}/genomewide_context.tsv", sep="\t", index=Fal
 b.assign(exon="E6").to_csv(f"{OUT}/genomewide_context.tsv", sep="\t", index=False, mode="a",
                            header=False)
 
-# ---------------------------------------------------------------- figura suplementaria (ESM_10)
+# ---------------------------------------------------------------- figura suplementaria (ESM_12)
 import matplotlib.pyplot as plt
 from figstyle import FOCUS, REF, MARK, INK, MUTED, MM, W2, panel, despine, save_esm
 
@@ -216,7 +216,7 @@ ax.set_xlabel("Mean local synonymous rate, relative to the gene")
 ax.set_ylabel("Fraction of exons at or below")
 despine(ax)
 panel(ax, "b", dx=-0.22, dy=1.02)
-save_esm(fig, 10, "Position of MAPT exon 10 among 45,085 human coding exons of 75 to 115 nt, "
+save_esm(fig, 12, "Position of MAPT exon 10 among 45,085 human coding exons of 75 to 115 nt, "
                   "by coverage with the synonymous constraint elements of Lin et al. (2011) (a) and by "
                   "mean local synonymous rate (b).")
 plt.close(fig)

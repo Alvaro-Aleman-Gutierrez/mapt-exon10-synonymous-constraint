@@ -75,7 +75,7 @@ for e in CORE:
 
 df = pd.DataFrame(rows)
 from esm import write_esm
-write_esm(df, 6, "alt_exon_divergence")
+write_esm(df, 9, "alt_exon_divergence")
 
 summ = (df.groupby("exon")
           .agg(set_=("exon", lambda x: "alternative" if x.iloc[0] in ALT else "core"),

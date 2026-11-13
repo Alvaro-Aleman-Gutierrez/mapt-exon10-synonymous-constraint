@@ -1,6 +1,6 @@
 # Synonymous constraint on MAPT exon 10 exceeds what its encoded protein requires and is shared across amniotes
 # Alvaro Alemán-Gutiérrez, Instituto Tecnológico de Costa Rica, aaleman@itcr.ac.cr
-# Online Resource 1
+# Online Resource 4
 species	clade	superorder	order	family	gene_id	protein	transcript	source	length	core_coverage	E10_coverage	missing_core_exons	included	exclusion_reason
 Homo sapiens	Mammalia	Euarchontoglires	Primates		4137	NP_005901.2	NM_005910.6	anotada	441.0	0.99			True	
 Mus musculus	Mammalia	Euarchontoglires	Rodentia		17762	NP_001033698.1	NM_001038609.3	anotada	430.0	0.96			True	

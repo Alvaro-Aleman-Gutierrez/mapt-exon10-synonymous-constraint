@@ -1,6 +1,6 @@
 # Synonymous constraint on MAPT exon 10 exceeds what its encoded protein requires and is shared across amniotes
 # Alvaro Alemán-Gutiérrez, Instituto Tecnológico de Costa Rica, aaleman@itcr.ac.cr
-# Online Resource 5
+# Online Resource 7
 order	n	mono	ufboot	shalrt	intruders
 Monotremata	2	True			[]
 Didelphimorphia	2	True	99.5	100.0	[]

@@ -1,6 +1,6 @@
 # Synonymous constraint on MAPT exon 10 exceeds what its encoded protein requires and is shared across amniotes
 # Alvaro Alemán-Gutiérrez, Instituto Tecnológico de Costa Rica, aaleman@itcr.ac.cr
-# Online Resource 7
+# Online Resource 10
 exon	set	species	order	n_compared	n_same_aa	aa_identity	nt_identity	syn_identity
 E4aL	alternative	Acinonyx jubatus	Carnivora	102	59	0.5784	0.7418	0.7797
 E4aL	alternative	Antechinus flavipes	Dasyuromorphia	61	25	0.4098	0.4918	0.4

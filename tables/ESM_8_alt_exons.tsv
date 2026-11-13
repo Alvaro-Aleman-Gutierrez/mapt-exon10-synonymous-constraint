@@ -1,6 +1,6 @@
 # Synonymous constraint on MAPT exon 10 exceeds what its encoded protein requires and is shared across amniotes
 # Alvaro Alemán-Gutiérrez, Instituto Tecnológico de Costa Rica, aaleman@itcr.ac.cr
-# Online Resource 2
+# Online Resource 8
 order	E4aL	E4a	E6	E8	n
 Afrosoricida	0.0	0.67	0.67	0.33	3
 Artiodactyla	0.71	0.91	0.96	0.77	56

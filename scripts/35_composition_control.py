@@ -147,4 +147,4 @@ out.append({"model": "permutación con GC3 y CpG en los estratos", "outcome": "c
             "p": p if p > 0 else 1 / N_PERM, "n": matched})
 pd.DataFrame(out).to_csv("results/composition_control.tsv", sep="\t", index=False)
 from esm import write_esm
-write_esm(comp, 12, "composition_by_exon")
+write_esm(comp, 11, "composition_by_exon")

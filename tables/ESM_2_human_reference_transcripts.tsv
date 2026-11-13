@@ -1,6 +1,6 @@
 # Synonymous constraint on MAPT exon 10 exceeds what its encoded protein requires and is shared across amniotes
 # Alvaro Alemán-Gutiérrez, Instituto Tecnológico de Costa Rica, aaleman@itcr.ac.cr
-# Online Resource 9
+# Online Resource 2
 transcript	protein	protein_length	exons	assembly_chromosome
 NM_001123066.4	NP_001116538.2	776	15	NC_000017.11
 NM_001123067.4	NP_001116539.1	412	11	NC_000017.11

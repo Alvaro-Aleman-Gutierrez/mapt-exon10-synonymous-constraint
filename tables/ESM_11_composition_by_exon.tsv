@@ -1,6 +1,6 @@
 # Synonymous constraint on MAPT exon 10 exceeds what its encoded protein requires and is shared across amniotes
 # Alvaro Alemán-Gutiérrez, Instituto Tecnológico de Costa Rica, aaleman@itcr.ac.cr
-# Online Resource 12
+# Online Resource 11
 exon	codons	GC3_human	GC3_mean_259_mammals	GC_human	CpG_per_100_codons	CpG_obs_over_exp	codons_touching_CpG
 E1	45	0.7111111111111111	0.700801211484416	0.5925925925925926	15.555555555555555	0.63	0.24444444444444444
 E2	29	0.4827586206896552	0.5128266850333832	0.5747126436781609	10.344827586206897	0.4237012987012987	0.13793103448275862

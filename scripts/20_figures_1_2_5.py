@@ -254,7 +254,7 @@ circle(xmaxT * 1.08, yy, 100, False)
 axT.annotate("SH-aLRT below 80", (xmaxT * 1.125, yy), va="center", ha="left",
              fontsize=6.5, color=MUTED)
 figT.subplots_adjust(left=0.015, right=0.995, top=0.997, bottom=0.016)
-save_esm(figT, 4, "The phylogeny of Fig. 1 with all 259 species named, and ultrafast bootstrap "
+save_esm(figT, 6, "The phylogeny of Fig. 1 with all 259 species named, and ultrafast bootstrap "
                   "and SH-aLRT support drawn on every internal branch.")
 plt.close(figT)
 print("Fig1 y el recurso en linea 4 listos")
@@ -409,4 +409,4 @@ despine(axB, keep=("bottom",))
 panel(axB, "b", dx=-0.175, dy=1.02)
 fig.savefig("manuscript/suplementarios/hyrax_figure.png", dpi=300)
 plt.close(fig)
-print("Fig2, ESM_4 y la figura de los damanes listas")
+print("Fig2, ESM_6 y la figura de los damanes listas")

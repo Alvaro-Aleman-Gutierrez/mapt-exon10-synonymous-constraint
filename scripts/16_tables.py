@@ -165,7 +165,7 @@ write("tableS1_hyracoidea", t5,
 
 # ---- Recursos en línea
 sel = pd.read_csv("results/selected_2N4R.tsv", sep="\t")
-# ESM_1 reúne las accesiones de todo lo que se analizó, mamíferos y no mamíferos. El manuscrito
+# ESM_4 reúne las accesiones de todo lo que se analizó, mamíferos y no mamíferos. El manuscrito
 # promete la accesión de cada proteína y transcrito usados, así que ninguna especie puede faltar.
 mam = sel[["species", "superorder", "order", "gene_id", "protein", "transcript", "source",
            "length", "core_coverage", "missing_core_exons", "included", "exclusion_reason"]].copy()
@@ -183,17 +183,17 @@ def esm(df, n, name):
     write_esm(df, n, name, TSV)
 
 
-esm(or1, 1, "accessions")
+esm(or1, 4, "accessions")
 
 
 alt = pd.read_csv("results/alt_exon_presence_by_order.tsv", sep="\t", header=[0, 1], index_col=0)
 alt.columns = [a for a, _ in alt.columns]
-esm(alt.reset_index(), 2, "alt_exons")
+esm(alt.reset_index(), 8, "alt_exons")
 
-esm(d, 3, "tetrapod_per_species")
+esm(d, 13, "tetrapod_per_species")
 
-# ESM_5, soporte por orden del árbol de máxima verosimilitud (lo produce el paso 20)
-esm(pd.read_csv("results/phylo_protein/order_support.tsv", sep="\t"), 5, "order_support")
+# ESM_7, soporte por orden del árbol de máxima verosimilitud (lo produce el paso 20)
+esm(pd.read_csv("results/phylo_protein/order_support.tsv", sep="\t"), 7, "order_support")
 
-# ESM_9, los transcritos de referencia humanos de los que sale el mapa de exones (paso 3)
-esm(pd.read_csv("results/human_reference_transcripts.tsv", sep="\t"), 9, "human_reference_transcripts")
+# ESM_2, los transcritos de referencia humanos de los que sale el mapa de exones (paso 3)
+esm(pd.read_csv("results/human_reference_transcripts.tsv", sep="\t"), 2, "human_reference_transcripts")

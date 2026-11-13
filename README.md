@@ -28,7 +28,7 @@ hyrax genomes because no annotated ortholog exists for Hyracoidea.
 | `hyrax/` | tblastn hits, the extracted loci, exonerate models and the afrotherian alignment |
 | `tables/` | The tables of the study and its supplementary tables (Online Resources), as tab-separated files |
 | `figures/` | Figures in EPS, TIFF and PNG, and the two supplementary figures in PDF |
-| `supplementary/` | The three supplementary documents (Online Resources 8, 11 and 13) |
+| `supplementary/` | The three supplementary documents (Online Resources 1, 3 and 5) |
 
 ## Running it
 
@@ -48,7 +48,7 @@ asks for a contact address. Replace `your.email@example.org` in those scripts wi
 
 Genome assemblies and BLAST databases are left out for the reason above. IQ-TREE checkpoint files
 and the bootstrap replicate file are also left out, since neither is needed to reproduce a result.
-Primary sequence data are not duplicated beyond what the scripts downloaded, and Online Resource 1
+Primary sequence data are not duplicated beyond what the scripts downloaded, and Online Resource 4
 in `tables/` lists the accession of every protein and transcript used, species by species, with the
 reason each excluded species was dropped.
 
